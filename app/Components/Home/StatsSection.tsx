@@ -5,7 +5,7 @@ import { Shield, MessageSquare, Monitor, Briefcase, Pill, Mail } from 'lucide-re
 
 const StatsSection = () => {
     return (
-        <section className="py-24 bg-white">
+        <section className="py-24 bg-gray-50">
             <div className="container mx-auto px-4 md:px-6">
                 {/* Header */}
                 <div className="text-center max-w-3xl mx-auto mb-16">
@@ -26,7 +26,7 @@ const StatsSection = () => {
                         {/* Card 1: 100+ Cities - Standard Height 400px */}
                         <div className="bg-white rounded-[2.5rem] p-10 relative overflow-hidden min-h-[400px] ">
                             <div className="relative z-10">
-                                <h3 className="text-5xl font-bold text-[#0F172A] mb-4">100+</h3>
+                                <h3 className="text-5xl font-bold text-black mb-4">100+</h3>
                                 <h4 className="text-xl font-bold text-[#004D40] mb-2">Cities Served Across Regions</h4>
                                 <p className="text-gray-500 text-sm max-w-sm">Delivering fast, secure, and professional medical advice to patients worldwide.</p>
                             </div>
@@ -81,7 +81,7 @@ const StatsSection = () => {
                         {/* Card 3: 15,000+ Consultations - Taller Height 520px */}
                         <div className="bg-white rounded-[2.5rem] p-10 min-h-[520px]  flex flex-col overflow-hidden relative group">
                             <div className="relative z-10 mb-8">
-                                <h3 className="text-5xl font-bold text-[#0F172A] mb-4">15,000+</h3>
+                                <h3 className="text-5xl font-bold text-black mb-4">15,000+</h3>
                                 <h4 className="text-xl font-bold text-[#004D40] mb-2">Online Consultations Completed</h4>
                                 <p className="text-gray-500 text-sm">Delivering fast, secure, and professional medical advice to patients worldwide.</p>
                             </div>
@@ -112,7 +112,7 @@ const StatsSection = () => {
                             </div>
 
                             <div>
-                                <h3 className="text-5xl font-bold text-[#0F172A] mb-4">500+</h3>
+                                <h3 className="text-5xl font-bold text-black mb-4">500+</h3>
                                 <h4 className="text-xl font-bold text-[#004D40] mb-2">Certified Doctors Available</h4>
                                 <p className="text-gray-500 text-sm">Delivering fast, secure, and professional medical advice to patients worldwide.</p>
                             </div>
@@ -128,7 +128,7 @@ const StatsSection = () => {
                             </div>
 
                             <div className="p-10 bg-white">
-                                <h3 className="text-5xl font-bold text-[#0F172A] mb-4">200+</h3>
+                                <h3 className="text-5xl font-bold text-black mb-4">200+</h3>
                                 <h4 className="text-xl font-bold text-[#004D40] mb-2">Medical Conditions Listed and Explained</h4>
                                 <p className="text-gray-500 text-sm">Delivering fast, secure, and professional medical advice to patients worldwide.</p>
                             </div>

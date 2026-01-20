@@ -9,21 +9,21 @@ const Showcasing = () => {
     const cards = [
         {
             id: 1,
-            title: "Commercial Space Design",
-            description: "An Emerging Firm With A Vision To Lead The Market & Build A Name In The World Of Medicine. Delivering fast, secure, and professional medical advice.",
-            image: "https://kit.createbigsupply.com/interora/wp-content/uploads/sites/38/2025/04/conceptual-interior-room-3d-illustration-2024-10-15-00-57-51-utc.jpg"
+            title: "Environmental",
+            description: "R-Biomeds recognizes environmental protection as one of our guiding principles and a key component of sound business performance. We will operate in compliance with all relevant legislations on environment and we will strive to adopt the best environmental practices in the area of our business operations. To fulfill this commitment, we abide by a set of carefully crafted principles and guidelines.",
+            image: "/policy/1.png"
         },
         {
             id: 2,
-            title: "Commercial Space Design",
-            description: "This living room was designed to embody simplicity, elegance, and functionality. The goal was to create a warm yet sophisticated space with a neutral color palette, natural textures,",
-            image: "https://kit.createbigsupply.com/interora/wp-content/uploads/sites/38/2025/04/ficus-next-to-brown-sofa-with-orange-pillows-in-gr-2024-10-18-12-54-55-utc.jpg"
+            title: "Sustainability",
+            description: "The company considers sustainability as very important foundation of its business performance and is committed to the cause of promoting sustainability. Strengthening sustainability while developing business, is at the core of leadership focus. The company aims to follow and to promote good sustainability practices and to reduce adverse environmental impact of its activities by following well thought-out guidelines.",
+            image: "/policy/2.png"
         },
         {
             id: 3,
-            title: "Commercial Space Design",
-            description: "ISO 9001:2015 Certified Pharmaceutical Warehouse Opening In Yangon Myanmar. Strengthening our global brand presence and healthcare access.",
-            image: "https://kit.createbigsupply.com/interora/wp-content/uploads/sites/38/2025/04/orange-armchair-next-to-lamp-in-minimal-living-roo-2024-10-18-22-38-51-utc.jpg"
+            title: "Corporate Social Responsibility",
+            description: "The objective of our CSR policy is to ensure an enhanced level of commitment at all levels in the organization, to operate its business in an economically, socially & environmentally sustainable manner, while recognizing the interests of its stakeholders. This policy guides the company to support those at the lower end of the pyramid through various activities such as patient support programmes, support homeless children, etc.",
+            image: "/policy/3.png"
         }
     ];
 
@@ -32,26 +32,25 @@ const Showcasing = () => {
             <div className="container mx-auto">
                 {/* Header Section */}
                 <div className="text-center max-w-4xl mx-auto mb-16">
-                    <h2 className="text-4xl md:text-5xl lg:text-5xl font-medium text-gray-900 mb-6 font-geist-sans">
-                        Showcasing Timeless Designs That<br />
-                        Inspire and Elevate Spaces.
+                    <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold text-gray-900 mb-6 font-geist-sans">
+                        Our Policies
                     </h2>
-                    <p className="text-gray-500 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-                        Explore our curated portfolio of stunning interior designs, where creativity meets functionality to transform ordinary spaces into extraordinary experiences
-                    </p>
+                    <p className="text-gray-500 text-lg md:text-xl ">
+                        R-Biomeds is an emerging pharmaceutical company with a vision to be a trusted health care organization, admired by its stakeholders for being customer centric, driven by our core values, guided by the principals of sustainability and corporate governance.</p>
                 </div>
 
                 {/* Grid Section */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-24 mb-20">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-16 lg:gap-y-6">
                     {cards.map((card, index) => (
-                        <div
+                        <motion.div
+                            layout
                             key={card.id}
-                            className="relative h-[480px] md:h-[450px] lg:h-[300px] group cursor-pointer"
+                            className="relative group cursor-pointer"
                             onMouseEnter={() => setHoveredIndex(index)}
                             onMouseLeave={() => setHoveredIndex(null)}
                         >
-                            {/* Image Wrapper with clipping */}
-                            <div className="absolute inset-0 rounded-2xl overflow-hidden">
+                            {/* Image Wrapper */}
+                            <div className="relative h-[250px] md:h-[300px] lg:h-[240px] rounded-2xl overflow-hidden">
                                 <img
                                     src={card.image}
                                     alt={card.title}
@@ -59,11 +58,11 @@ const Showcasing = () => {
                                 />
                             </div>
 
-                            {/* Floating White Box - Positioned to expand DOWNWARDS */}
-                            <div className="absolute top-[85%] left-6 right-6 z-[80]">
+                            {/* Floating White Box - Now in flow with negative margin */}
+                            <div className="-mt-12 px-6 relative z-10 w-full">
                                 <motion.div
                                     layout
-                                    className="bg-[#F8F8F8]/95 backdrop-blur-sm rounded-2xl p-6 lg:p-8 shadow-xl w-full"
+                                    className="bg-[#F8F8F8]/95 backdrop-blur-sm rounded-2xl p-6 lg:p-8 w-full"
                                     initial={false}
                                     transition={{ duration: 0.4, ease: [0.23, 1, 0.32, 1] }}
                                 >
@@ -93,7 +92,7 @@ const Showcasing = () => {
                                     </AnimatePresence>
                                 </motion.div>
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
             </div>

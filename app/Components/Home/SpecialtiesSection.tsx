@@ -1,26 +1,15 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import { Brain, Stethoscope, Baby, HeartHandshake } from 'lucide-react';
+import { Brain, Stethoscope, Baby, HeartHandshake, Activity, Microscope } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const SpecialtiesSection = () => {
     return (
         <>
-            <section className="py-10 bg-white ">
+            <section className="py-10 bg-white pt-30 ">
                 <div className="container mx-auto px-4 md:px-6">
-                    {/* Header */}
-                    <div className="text-center max-w-4xl mx-auto mb-10">
-                        <h2 className="text-3xl md:text-6xl font-medium text-gray-900 mb-6 leading-none">
-                            Comprehensive Care Across<br />
-                            Multiple Specialties, Online<br />
-                            Anytime
-                        </h2>
-                        <p className="text-gray-500 text-lg">
-                            We are dedicated to transforming healthcare access by connecting<br />
-                            patients with certified doctors through secure
-                        </p>
-                    </div>
+
 
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch relative">
 
@@ -32,16 +21,11 @@ const SpecialtiesSection = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                                 viewport={{ once: true }}
-                                className="bg-[#F8F9FA] rounded-md p-10 flex-1 hover:shadow-lg transition-shadow relative"
+                                className="bg-[#F8F9FA] rounded-md p-10 flex-1 relative"
                             >
-                                <div className="bg-[#ef662e] w-14 h-14 rounded-full flex items-center justify-center mb-6">
-                                    <Brain className="text-white w-7 h-7" />
-                                </div>
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">Dermatology</h3>
+                                <h3 className="text-3xl font-bold text-black hover:text-[#ef6623] mb-4">Our Vision</h3>
                                 <p className="text-gray-500 leading-relaxed font-medium">
-                                    Primary care services for common illnesses and
-                                    health concerns. Skin, hair, and nail consultations
-                                    with certified dermatologists.
+                                    To be a trusted health care organization of repute, admired by its stakeholders for being customer centric.
                                 </p>
                             </motion.div>
 
@@ -51,23 +35,32 @@ const SpecialtiesSection = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
                                 viewport={{ once: true }}
-                                className="bg-[#F8F9FA] rounded-md p-10 flex-1 hover:shadow-lg transition-shadow relative"
+                                className="bg-[#F8F9FA] rounded-md p-10 flex-1  relative"
                             >
-                                <div className="bg-[#ef662e] w-14 h-14 rounded-full flex items-center justify-center mb-6">
-                                    <Baby className="text-white w-7 h-7" />
-                                </div>
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">Pediatrics</h3>
+                                <h3 className="text-3xl font-bold text-black  hover:text-[#ef6623] mb-4">Our Culture</h3>
                                 <p className="text-gray-500 leading-relaxed font-medium">
-                                    Primary care services for common illnesses and
-                                    health concerns. Skin, hair, and nail consultations
-                                    with certified dermatologists.
+                                    At R-Biomeds, culture is about empowerment, promoting collaborative atmosphere with shared goals.
                                 </p>
+                            </motion.div>
+
+
+                            {/* Orthopedics Card */}
+                            <motion.div
+                                initial={{ x: "100%", opacity: 0 }}
+                                whileInView={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
+                                viewport={{ once: true }}
+                                className="bg-[#F8F9FA] rounded-md p-10 flex-1  relative"
+                            >
+                                <h3 className="text-3xl font-bold text-black  hover:text-[#ef6623] mb-4">Our Mission</h3>
+                                <p className="text-gray-500 leading-relaxed font-medium">
+                                    To inspire hope and contribute to the overall health and well-being by promising to deliver world class products and healthcare services for better patient care through integrated practices, education and research.</p>
                             </motion.div>
                         </div>
 
                         {/* Middle Column - Image */}
                         <div className="lg:col-span-4 h-full min-h-[500px] lg:min-h-0 order-1 lg:order-2 z-10 relative">
-                            <div className="relative w-full h-full rounded-md overflow-hidden shadow-xl">
+                            <div className="relative w-full h-full rounded-md overflow-hidden ">
                                 <Image
                                     src="/assets/images/specialties/doctor_vertical.png"
                                     alt="Doctor Consultation"
@@ -85,18 +78,14 @@ const SpecialtiesSection = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                                 viewport={{ once: true }}
-                                className="bg-[#F8F9FA] rounded-md p-10 flex-1 hover:shadow-lg transition-shadow relative"
+                                className="bg-[#F8F9FA] rounded-md p-10 flex-1  relative"
                             >
-                                <div className="bg-[#ef662e] w-14 h-14 rounded-full flex items-center justify-center mb-6">
-                                    <Stethoscope className="text-white w-7 h-7" />
-                                </div>
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">General Consultation</h3>
+                                <h3 className="text-3xl font-bold text-black  hover:text-[#ef6623] mb-4">Execution Excellence</h3>
                                 <p className="text-gray-500 leading-relaxed font-medium">
-                                    Primary care services for common illnesses and
-                                    health concerns. Skin, hair, and nail consultations
-                                    with certified dermatologists.
+                                    With the right capability and attitude our team is aligned to its core values & highly accountable results.
                                 </p>
                             </motion.div>
+
 
                             {/* Mental Health Card */}
                             <motion.div
@@ -104,17 +93,25 @@ const SpecialtiesSection = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
                                 viewport={{ once: true }}
-                                className="bg-[#F8F9FA] rounded-md p-10 flex-1 hover:shadow-lg transition-shadow relative"
+                                className="bg-[#F8F9FA] rounded-md p-10 flex-1  relative"
                             >
-                                <div className="bg-[#ef662e] w-14 h-14 rounded-full flex items-center justify-center mb-6">
-                                    <HeartHandshake className="text-white w-7 h-7" />
-                                </div>
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">Mental Health</h3>
+                                <h3 className="text-3xl font-bold text-black  hover:text-[#ef6623] mb-4">Our Values</h3>
                                 <p className="text-gray-500 leading-relaxed font-medium">
-                                    Primary care services for common illnesses and
-                                    health concerns. Skin, hair, and nail consultations
-                                    with certified dermatologists.
+                                    R-Biomeds is driven by its core values like quality, customer focus and respect for individuals.
                                 </p>
+                            </motion.div>
+
+                            {/* Diagnostics Card */}
+                            <motion.div
+                                initial={{ x: "-100%", opacity: 0 }}
+                                whileInView={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
+                                viewport={{ once: true }}
+                                className="bg-[#F8F9FA] rounded-md p-10 flex-1 relative"
+                            >
+                                <h3 className="text-3xl hover:text-[#ef6623] font-bold text-black mb-4">Employee Value Proposition</h3>
+                                <p className="text-gray-500 leading-relaxed font-medium">
+                                    We understand that career growth of an individual at R-Biomeds is an important aspect. </p>
                             </motion.div>
                         </div>
                     </div>

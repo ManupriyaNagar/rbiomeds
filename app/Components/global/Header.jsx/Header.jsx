@@ -29,7 +29,7 @@ export default function Header() {
                 <nav className="hidden md:flex items-center gap-8">
                     {[
                         { name: 'Home', href: '/' },
-                        { name: 'Services', href: '/service' },
+                        { name: 'Services', href: '/services' },
                         { name: 'Our Products', href: '/products' },
                         { name: 'Our People', href: '/ourpeople' },
                     ].map((link) => (
