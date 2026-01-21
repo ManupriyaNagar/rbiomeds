@@ -28,11 +28,11 @@ const Showcasing = () => {
     ];
 
     return (
-        <section className="py-24 bg-white px-4 md:px-6">
+        <section className="py-14 bg-white px-4 md:px-6">
             <div className="container mx-auto">
                 {/* Header Section */}
                 <div className="text-center max-w-4xl mx-auto mb-16">
-                    <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold text-gray-900 mb-6 font-geist-sans">
+                    <h2 className="text-4xl md:text-5xl lg:text-5xl font-medium uppercase text-black mb-6 hover:text-[#ef662a]">
                         Our Policies
                     </h2>
                     <p className="text-gray-500 text-lg md:text-xl ">
@@ -70,7 +70,7 @@ const Showcasing = () => {
                                         <h3 className="text-xl lg:text-2xl font-bold text-gray-900 leading-tight">
                                             {card.title}
                                         </h3>
-                                        <div className="bg-black text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:rotate-45">
+                                        <div className="bg-black  group-hover:bg-[#ef662a] text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:rotate-45">
                                             <ArrowUpRight className="w-5 h-5 lg:w-6 lg:h-6" />
                                         </div>
                                     </div>

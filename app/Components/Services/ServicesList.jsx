@@ -38,16 +38,12 @@ const services = [
 
 const ServicesList = () => {
     return (
-        <section className="py-20 bg-white">
+        <section className="py-10 bg-white">
             <div className="container mx-auto px-4 md:px-2">
                 <div className="flex flex-col gap-6 max-w-7xl mx-auto">
                     {services.map((service, index) => (
                         <motion.div
-                            key={index}
-                            initial={{ x: index % 2 === 0 ? -100 : 100, opacity: 0 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.8, ease: "easeOut", delay: index * 0.1 }}
-                            viewport={{ once: true }}
+
                             className="group bg-white hover:bg-[#F9FAFB] border border-gray-100 rounded-xl px-8 md:px-6 flex flex-col md:flex-row items-center gap-6 md:gap-12 transition-all duration-500 overflow-hidden h-32 hover:h-72">
                             {/* Number */}
                             <div className="text-3xl md:text-5xl font-bold text-gray-200 group-hover:text-[#ef662e] transition-colors duration-300 min-w-[80px]">

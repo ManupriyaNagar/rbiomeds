@@ -30,7 +30,7 @@ export default function Header() {
                     {[
                         { name: 'Home', href: '/' },
                         { name: 'Services', href: '/services' },
-                        { name: 'Our Products', href: '/products' },
+                        { name: 'Our Products', href: '/ourproduct' },
                         { name: 'Our People', href: '/ourpeople' },
                     ].map((link) => (
                         <Link
@@ -48,7 +48,7 @@ export default function Header() {
 
                 {/* CTA Button */}
                 <div className="flex items-center">
-                    <Link href="#contact" className="flex items-center gap-2 bg-gray-100 hover:bg-[#ea9237] text-black px-6 py-2.5 rounded-full text-lg font-medium hover:text-white transition-colors">
+                    <Link href="#contact" className="flex items-center gap-2 bg-gray-100 hover:bg-[#ef662a] text-black px-6 py-2.5 rounded-full text-lg font-medium hover:text-white transition-colors">
                         Contact us
                         <ArrowRight className="w-4 h-4" />
                     </Link>

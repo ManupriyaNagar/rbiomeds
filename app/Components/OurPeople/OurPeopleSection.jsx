@@ -13,18 +13,18 @@ export default function OurPeopleSection() {
                     >
                         {/* Optional overlay or empty if image is the primary focus */}
                         <div className="p-6 2xl:p-20 rounded-[2rem]">
-                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black tracking-tight p-6 hover:text-[#e57f00]">
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black tracking-tight p-6 hover:text-[#ef662a]">
                                 Our People
                             </h1>
                             <p className="text-lg md:text-lg text-black/80 font-medium leading-relaxed p-6">
-                                ABC International is supported by a team of like-minded and highly experienced professionals who united with a shared vision of establishing a reputable and trusted healthcare organization. This vision is underpinned by shared values and a strong commitment to customer-centricity, all while upholding the highest standards of corporate governance and demonstrating a dedication to Corporate Social Responsibility (CSR). Additionally, we make it a priority to acknowledge and appreciate our employees for their unique contributions each day.
+                                R-Biomeds is powered by a team of aligned and seasoned professionals brought together by a shared ambition to build a trusted healthcare organization of repute. This ambition is anchored in strong values, customer focus, and disciplined execution, while consistently adhering to robust corporate governance frameworks and a sustained commitment to Corporate Social Responsibility. Equally, we place strong emphasis on recognizing and valuing our people for the distinctive impact they deliver every day.
                             </p>
                         </div>
                     </div>
                     <div className="w-full">
 
                         <img
-                            src="/p1.png"
+                            src="/staff/7.png"
                             alt="Our Team"
                             className="w-full h-full object-cover rounded-[2rem]"
                         />
@@ -38,8 +38,7 @@ export default function OurPeopleSection() {
                 {/* Right Column: Full Height Image */}
                 <div className="h-full lg:h-1/3 bg-gray-100 flex flex-col justify-center px-8 md:px-8 py-16 lg:py-0 rounded-[2rem]">
                     <p className="text-lg md:text-lg p-6 text-black/80 font-medium leading-relaxed">
-                        ABC International is backed by a team of like minded and highly experienced professionals who came together with a shared vision of creating a trusted healthcare organisation of repute that is driven by shared values and customer centricity while adhering to highest forms of corporate governance & committed to CSR where employees are recognised for the unique contribution they make every day.
-                    </p>
+                        R-Biomeds is driven by a collective of like-minded and experienced professionals unified by a common vision to establish a trusted and respected healthcare organization. Guided by shared values and a customer-centric mindset, we operate with strict adherence to corporate governance principles and a deep commitment to CSR, fostering a culture where employees are consistently acknowledged for the unique value and contributions they bring each day.</p>
                 </div>
 
             </div>

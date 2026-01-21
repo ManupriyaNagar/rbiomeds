@@ -6,9 +6,9 @@ export default function ImageGallery() {
 
     const images = [
         {
-            src: '/u.png',
-            title: 'Sponsorship',
-            description: 'ABC International sponsored Miss World Myanmar 2023, with Orofresh as the key sponsor, strengthening our global brand presence.'
+            src: '/staff/9.png',
+            title: 'Social Responsibility',
+            description: 'R-Biomeds Singapore donated essential medicines to Cambodia’s border-affected communities in partnership with Pharmacie De La Gare and Ke Sinoun Hospital, Battambang.'
         },
         {
             src: '/u2.png',

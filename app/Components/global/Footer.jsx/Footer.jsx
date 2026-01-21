@@ -16,73 +16,77 @@ const Footer = () => {
                     backgroundRepeat: "no-repeat"
                 }}
             />
-            <div className="container mx-auto px-6 relative z-10">
+            <div className="container mx-auto relative z-10">
 
                 {/* Top Section */}
-                <div className="flex flex-col md:flex-row justify-between items-start mb-16 gap-10">
+                <div className="flex flex-col md:flex-row justify-between items-start  gap-10">
                     <div className="max-w-7xl">
                         <h2 className="text-6xl md:text-6xl font-bold text-gray-500 leading-tight mb-8 hover:text-[#ff5400] transition-colors cursor-pointer">
                             We'd love to hear from you!
                         </h2>
-                        <div className='max-w-3xl'>
+                        <div className='max-w-5xl'>
 
 
                             {/* Links/Contact Columns */}
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-12">
-                                <div>
-                                    <h4 className="font-bold text-lg mb-1 text-black">Send a Message</h4>
-                                    <p className="text-gray-500 mb-2 hover:text-[#ff5400] transition-colors cursor-pointer font-medium">info@abcinternational.com</p>
-
-                                    <h4 className="font-bold text-lg mt-3 mb-1 text-black">Call us</h4>
-                                    <p className="text-gray-500 mb-2 hover:text-[#ff5400] transition-colors cursor-pointer font-medium">
-                                        +95 9979386000</p>
-
-                                    <h4 className="font-bold text-lg mt-3 mb-1 text-black ">Address</h4>
-                                    <div className="space-y-4">
-                                        <div>
-                                            <p className="text-black font-bold text-sm ">Head Office </p>
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-1">
+                                <div className='md:col-span-2'>
+                                    <h4 className="font-bold text-lg mt-3 mb-2 text-black">Address</h4>
+                                    <div className="w-full ">
+                                        <div className='mb-2'>
+                                            <p className="text-black font-bold text-sm mb-1">SINGAPORE</p>
                                             <p className="text-gray-500 hover:text-[#ff5400] transition-colors cursor-pointer font-medium leading-relaxed">
-                                                Room I+J, 2nd Floor, Atrium Condominium, Upper Pansodan Rd, Mingalar Taung Nyunt Township, Yangon.
+                                                11G, Bright Hill Drive,
+                                                Thomson View, Singapore. 579615 |
+                                                PH: +6591276706
                                             </p>
                                         </div>
-                                        <div>
-                                            <p className="text-black font-bold text-sm ">Warehouse </p>
+                                        <div className='mb-2'>
+                                            <p className="text-black font-bold text-sm mb-1">MYANMAR</p>
                                             <p className="text-gray-500 hover:text-[#ff5400] transition-colors cursor-pointer font-medium leading-relaxed">
-                                                No.91,92 Mya Khwar Nyo ( Aung Kaung Kyaw ) Housing, Thaketa Township, Yangon, Myanmar.
+                                                No.002, Shwe Than Lwin Condo,
+                                                Bahan Township, Yangon, Myanmar, 11201
+                                                | PH: +95943040374, +95979845393
                                             </p>
                                         </div>
-                                        <div>
-                                            <p className="text-black font-bold text-sm ">Mandalay Office </p>
+                                        <div className='mb-2'>
+                                            <p className="text-black font-bold text-sm mb-1">CANADA</p>
                                             <p className="text-gray-500 hover:text-[#ff5400] transition-colors cursor-pointer font-medium leading-relaxed">
-                                                No.22, Ward (NarGyi/2), Myothit 1 quarter, Chan Mya Thar Si Township, Mandalay.
+                                                63 Meadowridge St,
+                                                Kitchener, ON, N2P 0E2
                                             </p>
                                         </div>
+                                        <div className='mb-2'>
+                                            <p className="text-black font-bold text-sm mb-1">CAMBODIA</p>
+                                            <p className="text-gray-500 hover:text-[#ff5400] transition-colors cursor-pointer font-medium leading-relaxed">
+                                                #601, Phum Chey Apt., Street 135,
+                                                Tuol Tompoung, Phnom Penh, Cambodia.
+                                            </p>
+                                        </div>
+                                        <div className='mb-2'>
+                                            <p className="text-black font-bold text-sm mb-1">INDIA</p>
+                                            <p className="text-gray-500 hover:text-[#ff5400] transition-colors cursor-pointer font-medium leading-relaxed">
+                                                105, Sagar Complex,
+                                                Pitampura, New Delhi 110034 |
+                                                PH: +91 987133044
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className='flex gap-4 mt-4'>
+                                        <h4 className="font-bold text-lg mb-1 text-black">Send a Message</h4>
+                                        <p className="text-gray-500 mb-2 hover:text-[#ff5400] transition-colors cursor-pointer font-medium">info@rbiomeds.com</p>
                                     </div>
                                 </div>
 
-                                <div className="grid grid-cols-2 gap-10">
-                                    <div>
-                                        <h4 className="font-bold text-lg mb-4 text-black">Quick Links</h4>
-                                        <ul className="space-y-3">
-                                            <li><a href="/" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium">Home</a></li>
-
-                                            <li><a href="/service" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium">Service</a></li>
-                                            <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium">Our Products</a></li>
-                                            <li><a href="/ourpeople" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium">Our People</a></li>
-
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <h4 className="font-bold text-lg mb-4 text-black">Our Products</h4>
-                                        <ul className="space-y-3">
-                                            <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">ABC</a></li>
-                                            <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">ABC</a></li>
-                                            <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">ABC</a></li>
-                                            <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">ABC</a></li>
-                                            <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">ABC</a></li>
-                                            <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">ABC</a></li>
-                                        </ul>
-                                    </div>
+                                <div className="md:col-span-1">
+                                    <h4 className="font-bold text-lg mb-4 text-black">Our Products</h4>
+                                    <ul className="space-y-3">
+                                        <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">R-BIOMEDS</a></li>
+                                        <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">R-BIOMEDS</a></li>
+                                        <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">R-BIOMEDS</a></li>
+                                        <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">R-BIOMEDS</a></li>
+                                        <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">R-BIOMEDS</a></li>
+                                        <li><a href="#" className="text-gray-500 hover:text-[#ff5400] transition-colors font-medium whitespace-nowrap">R-BIOMEDS</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -105,22 +109,27 @@ const Footer = () => {
                                 </button>
                             </form>
                         </div>
-                        <div className='flex flex-row gap-4 mt-18 px-6'>
+
+                        <div className='flex flex-row gap-4 px-6 m-4'>
                             <h1 className="font-bold text-xl text-black">Follow us on:</h1>
-                            <a href="https://www.facebook.com/abcinternational.global" className="text-black w-6 h-6 flex items-center justify-center hover:bg-[#ff5400] transition-all transform hover:scale-110 group ">
-                                <FaFacebook className='w-full h-full' />
-                            </a>
-                            <a href="https://www.linkedin.com/company/abcinternational-mm/" className="text-black w-6 h-6 flex items-center justify-center hover:bg-[#ff5400] transition-all transform hover:scale-110 group ">
-                                <RxLinkedinLogo className='w-full h-full' />
-                            </a>
+                            <div className='flex  gap-4'>
+                                <a href="https://www.facebook.com/profile.php?id=100067754681394" target='_blank' className="text-black w-6 h-6 flex items-center justify-center transition-all transform hover:scale-110 group ">
+                                    <FaFacebook className='w-full h-full' />
+                                </a>
+
+                                <a href="https://www.linkedin.com/company/r-biomeds-singapore/" target='_blank' className="text-black w-6 h-6 flex items-center justify-center  transition-all transform hover:scale-110 group ">
+                                    <RxLinkedinLogo className='w-full h-full' />
+                                </a>
+                            </div>
                         </div>
+
                     </div>
                 </div>
 
                 {/* Lime Green Banner */}
-                <div className="bg-[#ef662e]  text-black rounded-[1.5rem] p-8 flex flex-col md:flex-row justify-between items-center transition-all hover:shadow-2xl hover:shadow-orange-100">
+                <div className="bg-[#ef662e] text-black rounded-[1.5rem] p-8 flex flex-col md:flex-row justify-between items-center transition-all hover:shadow-2xl hover:shadow-orange-100 ">
                     <h3 className="text-white text-3xl md:text-[1.5rem] 2xl:text-[1.8rem] font-bold text-center md:text-left md:mb-0  leading-tight">
-                        Get in touch with ABC International for business, partnership, or healthcare inquiries.
+                        Get in touch with Rbiomeds for business, partnership, or healthcare inquiries.
                     </h3>
                     <button className="bg-white text-black px-8 py-2 rounded-2xl font-extrabold text-lg transition-all transform hover:scale-105 active:scale-95 shadow-2xl">
                         Call Us Now
@@ -129,7 +138,7 @@ const Footer = () => {
 
                 {/* Bottom Bar */}
                 <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm font-medium">
-                    <p>© Copyright 2026 - ABC International All Rights Reserved Copyright.</p>
+                    <p>© Copyright 2026 - Rbiomeds All Rights Reserved Copyright.</p>
                     <div className="flex gap-8 mt-4 md:mt-0">
                         <a href="https://rbshstudio.com" target="_blank" className="transition-colors">Powered By <span className="text-[#ff5400] font-bold">RBSH Studio</span> </a>
 

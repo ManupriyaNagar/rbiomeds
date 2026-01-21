@@ -9,7 +9,7 @@ export default function Services() {
                     <h1 className="text-4xl md:text-7xl font-bold text-gray-900 mb-6">
                         Our Services
                     </h1>
-                    <p className="text-gray-500 text-lg md:text-xl max-w-3xl mx-auto">
+                    <p className="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto">
                         Comprehensive pharmaceutical solutions tailored to meet global standards
                         and local market needs in Myanmar.
                     </p>
