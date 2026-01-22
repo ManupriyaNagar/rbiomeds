@@ -46,7 +46,7 @@ export default function ExploreProducts() {
         <section className="py-20 bg-white">
             <div className="container mx-auto">
                 {/* Heading Section */}
-                <div className="text-center mb-12 mt-10">
+                <div className="text-center mb-12 mt-10 2xl:mt-20">
                     <h2 className="text-[3.5rem] font-bold text-gray-500 hover:text-[#ef662a] leading-tight mb-4">
                         Quality Healthcare Products For Every Need
                     </h2>

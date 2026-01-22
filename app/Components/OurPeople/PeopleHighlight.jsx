@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const PeopleHighlight = () => {
     return (
-        <section className="bg-white md:pb-24 pt-10">
+        <section className="bg-white md:pb-24 pt-10 2xl:pt-30">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="bg-[#ef662e] rounded-[2.5rem] overflow-hidden relative min-h-[400px]">
                     <div className="grid grid-cols-1 lg:grid-cols-12 items-center">

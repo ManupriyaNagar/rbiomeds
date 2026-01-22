@@ -12,7 +12,7 @@ const Hero = () => {
                 style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '40px 40px' }} />
 
             <div className="container mx-auto relative z-10 h-[calc(100vh-140px)] max-h-[950px]">
-                <div className="bg-gradient-to-r from-red-900 to-[#ef662a] h-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 items-center p-6 md:p-2 lg:p-4 rounded-2xl overflow-hidden border border-white/10">
+                <div className="bg-gradient-to-r from-red-900 to-[#ef662a] h-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 items-center p-6 md:p-2 lg:p-4 rounded-2xl overflow-hidden  border-white/10">
 
                     {/* Left Content */}
                     <div className="flex flex-col gap-6 lg:gap-4 max-w-2xl p-6">
@@ -36,7 +36,7 @@ const Hero = () => {
                             transition={{ duration: 0.5, delay: 0.1 }}
                             className="text-5xl md:text-6xl lg:text-7xl font-medium text-white leading-[1.05]"
                         >
-                            Your Health Is <span className="font-semibold">Our Priority</span>
+                            Your Health Is <span className="font-semibold"> <br />Our Priority</span>
                         </motion.h1>
 
                         <motion.p

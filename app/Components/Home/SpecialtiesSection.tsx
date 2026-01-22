@@ -8,8 +8,8 @@ const SpecialtiesSection = () => {
     return (
         <>
             <section className="py-10 bg-white pt-10 ">
-                <div className="container mx-auto px-4 md:px-6">
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch relative">
+                <div className="container mx-auto">
+                    <div className="grid grid-cols-1 lg:grid-cols-12 2xl:gap-10 gap-6 items-stretch relative">
                         {/* Left Column */}
                         <div className="lg:col-span-4 flex flex-col gap-6 order-2 lg:order-1">
                             {/* Dermatology Card */}
@@ -18,7 +18,7 @@ const SpecialtiesSection = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                                 viewport={{ once: true }}
-                                className="bg-[#F8F9FA] rounded-md p-6 flex-1 relative"
+                                className="bg-[#F8F9FA] rounded-md 2xl:p-10 p-6 flex-1 relative"
                             >
                                 <h3 className="text-3xl font-bold text-black hover:text-[#ef6623] mb-4">Our Vision</h3>
                                 <p className="text-gray-500 leading-relaxed font-medium">
@@ -31,7 +31,7 @@ const SpecialtiesSection = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
                                 viewport={{ once: true }}
-                                className="bg-[#F8F9FA] rounded-md p-6 flex-1  relative"
+                                className="bg-[#F8F9FA] rounded-md 2xl:p-10 p-6 flex-1  relative"
                             >
                                 <h3 className="text-3xl font-bold text-black  hover:text-[#ef6623] mb-4">Our Culture</h3>
                                 <p className="text-gray-500 leading-relaxed font-medium">
@@ -46,7 +46,7 @@ const SpecialtiesSection = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
                                 viewport={{ once: true }}
-                                className="bg-[#F8F9FA] rounded-md p-6 flex-1  relative"
+                                className="bg-[#F8F9FA] rounded-md 2xl:p-10 p-6 flex-1  relative"
                             >
                                 <h3 className="text-3xl font-bold text-black  hover:text-[#ef6623] mb-4">Our Mission</h3>
                                 <p className="text-gray-500 leading-relaxed font-medium">
@@ -74,7 +74,7 @@ const SpecialtiesSection = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                                 viewport={{ once: true }}
-                                className="bg-[#F8F9FA] rounded-md p-8 flex-1  relative"
+                                className="bg-[#F8F9FA] rounded-md 2xl:p-10 p-8 flex-1  relative"
                             >
                                 <h3 className="text-3xl font-bold text-black  hover:text-[#ef6623] mb-4">Execution Excellence</h3>
                                 <p className="text-gray-500 leading-relaxed font-medium">
@@ -89,7 +89,7 @@ const SpecialtiesSection = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
                                 viewport={{ once: true }}
-                                className="bg-[#F8F9FA] rounded-md p-8 flex-1  relative"
+                                className="bg-[#F8F9FA] rounded-md 2xl:p-10 p-8 flex-1  relative"
                             >
                                 <h3 className="text-3xl font-bold text-black  hover:text-[#ef6623] mb-4">Our Values</h3>
                                 <p className="text-gray-500 leading-relaxed font-medium">
@@ -103,7 +103,7 @@ const SpecialtiesSection = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
                                 viewport={{ once: true }}
-                                className="bg-[#F8F9FA] rounded-md p-8 flex-1 relative"
+                                className="bg-[#F8F9FA] rounded-md 2xl:p-10 p-8 flex-1 relative"
                             >
                                 <h3 className="text-3xl hover:text-[#ef6623] font-bold text-black mb-4">Employee Value Proposition</h3>
                                 <p className="text-gray-500 leading-relaxed font-medium">

@@ -64,16 +64,16 @@ const StatsSection = () => {
                         {/* Card 2: 500+ Doctors - Taller Height 520px */}
                         <div className="bg-white rounded-3xl p-6 min-h-[520px]  flex flex-col justify-between overflow-hidden">
                             {/* Circular Network Image */}
-                            <div className="w-full h-[350px] relative">
+                            <div className="w-full md:h-[350px] 2xl:h-[370px] relative">
                                 <Image
                                     src="/staff/3.png"
                                     alt="Doctors Network"
                                     fill
-                                    className="object-cover"
+                                    className="object-cover 2xl:object-contain 2xl:scale-120"
                                 />
                             </div>
 
-                            <div>
+                            <div className='z-20'>
                                 <h3 className="text-7xl font-medium text-black hover:text-[#ef662a] mb-4">50000+</h3>
                                 <h4 className="text-2xl font-medium text-black mb-2">Satisfied Clients</h4>
                                 <p className="text-gray-500 text-sm">Delivering fast, secure, and professional medical advice to patients worldwide.</p>

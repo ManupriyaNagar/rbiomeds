@@ -11,7 +11,7 @@ export default function Header() {
 
     return (
         <header className="fixed top-0 left-0 right-0 z-50 bg-white">
-            <div className="container mx-auto px-6 h-20 flex items-center justify-between">
+            <div className="container mx-auto h-20 flex items-center justify-between">
                 {/* Logo Section */}
                 <Link href="/" className="flex items-center gap-3 group">
                     <div className="relative w-60 h-40 flex items-center justify-center overflow-hidden">

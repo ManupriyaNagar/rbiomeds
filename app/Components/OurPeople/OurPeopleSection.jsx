@@ -2,21 +2,20 @@ import React from "react";
 
 export default function OurPeopleSection() {
     return (
-        <section className=" py-10 h-[95vh] bg-white pt-20">
+        <section className=" py-10 h-[95vh] bg-white pt-20 2xl:pt-30">
             {/* Left Column: Vertical Split */}
             <div className="container mx-auto grid grid-rows-2 gap-4">
                 <div className="w-full grid grid-cols-2 gap-4  rounded-[2rem] ">
                     {/* Top Half: Background Image */}
                     <div
-                        style={{ backgroundImage: "url('/p.png')" }}
-                        className=" w-full bg-cover bg-center bg-no-repeat rounded-[2rem] "
+                        className="bg-gradient-to-r from-red-900 to-[#ef662a] text-white rounded-[2rem] "
                     >
                         {/* Optional overlay or empty if image is the primary focus */}
                         <div className="p-6 2xl:p-20 rounded-[2rem]">
-                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black tracking-tight p-6 hover:text-[#ef662a]">
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight p-6 hover:text-[#ef662a]">
                                 Our People
                             </h1>
-                            <p className="text-lg md:text-lg text-black/80 font-medium leading-relaxed p-6">
+                            <p className="text-lg md:text-lg text-white font-medium leading-relaxed p-6">
                                 R-Biomeds is powered by a team of aligned and seasoned professionals brought together by a shared ambition to build a trusted healthcare organization of repute. This ambition is anchored in strong values, customer focus, and disciplined execution, while consistently adhering to robust corporate governance frameworks and a sustained commitment to Corporate Social Responsibility. Equally, we place strong emphasis on recognizing and valuing our people for the distinctive impact they deliver every day.
                             </p>
                         </div>
