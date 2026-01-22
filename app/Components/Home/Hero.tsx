@@ -6,14 +6,14 @@ import { ArrowUpRight, CheckCircle } from "lucide-react";
 
 const Hero = () => {
     return (
-        <section className="relative bg-white md:h-screen 2xl:min-h-[800px] overflow-hidden flex items-center pt-20 md:p-0 p-4">
+        <section className="relative bg-white md:h-screen 2xl:min-h-[800px] overflow-hidden flex items-center md:pt-20 md:px-0 px-4 pt-40 ">
             {/* Subtle Grid Pattern Overlay */}
 
             <div className="container mx-auto relative z-10">
                 <div className="bg-gradient-to-r from-red-900 to-[#ef662a] h-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 items-center p-6 md:p-2 lg:p-4 rounded-2xl overflow-hidden  border-white/10">
 
                     {/* Left Content */}
-                    <div className="flex flex-col gap-6 lg:gap-4 max-w-2xl p-6">
+                    <div className="flex flex-col gap-6 lg:gap-4 md:max-w-2xl p-6">
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ const Hero = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.1 }}
-                            className="text-5xl md:text-6xl lg:text-7xl font-medium text-white leading-[1.05]"
+                            className="text-4xl md:text-6xl lg:text-7xl font-medium text-white leading-[1.05]"
                         >
                             Your Health Is <span className="font-semibold"> <br />Our Priority</span>
                         </motion.h1>
@@ -63,7 +63,7 @@ const Hero = () => {
                             initial={{ opacity: 0, scale: 0.9, y: 20 }}
                             animate={{ opacity: 1, scale: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.5 }}
-                            className="mt-4 bg-white/5 backdrop-blur-xl border border-white/20 p-2 w-fit rounded-3xl"
+                            className="mt-4 bg-white/5 backdrop-blur-xl border border-white/20 p-2 w-fit rounded-3xl md:ml-0 -ml-10"
                         >
                             <div className="bg-white/10 p-5 rounded-2xl w-fit flex items-center gap-6 relative group hover:bg-white/15 transition-all">
                                 <div className="flex flex-col items-center">

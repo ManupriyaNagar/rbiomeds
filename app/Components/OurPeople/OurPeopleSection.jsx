@@ -7,7 +7,7 @@ export default function OurPeopleSection() {
         bg-white
         py-10
         pt-20 2xl:pt-30
-        p-4 md:p-0
+        p-4 md:px-0
         h-auto md:h-[95vh]
       "
         >

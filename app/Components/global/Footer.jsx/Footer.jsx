@@ -105,7 +105,7 @@ const Footer = () => {
                             </form>
                         </div>
 
-                        <div className='flex flex-col sm:flex-row gap-4 px-6 m-4'>
+                        <div className='flex md:flex-col gap-4 px-6 m-4'>
                             <h1 className="font-bold text-xl text-black">Follow us on:</h1>
                             <div className='flex  gap-4'>
                                 <a href="https://www.facebook.com/profile.php?id=100067754681394" target='_blank' className="text-black w-6 h-6 flex items-center justify-center transition-all transform hover:scale-110 group ">
@@ -117,7 +117,6 @@ const Footer = () => {
                                 </a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -125,13 +124,13 @@ const Footer = () => {
                 <div className="bg-[#ef662e] text-black rounded-[1.5rem] p-6 sm:p-8 flex flex-col md:flex-row justify-between items-center transition-all hover:shadow-2xl hover:shadow-orange-100 ">
                     <h3 className="text-white text-2xl sm:text-3xl md:text-[1.5rem] 2xl:text-[1.8rem] font-bold text-center md:text-left leading-tight">  Get in touch with Rbiomeds for business, partnership, or healthcare inquiries.
                     </h3>
-                    <button className="bg-white text-black px-8 py-2 rounded-2xl font-extrabold text-lg transition-all transform hover:scale-105 active:scale-95 shadow-2xl">
+                    <button className="md:mt-0 mt-4 bg-white text-black px-8 py-2 rounded-2xl font-extrabold text-lg transition-all transform hover:scale-105 active:scale-95 shadow-2xl">
                         Call Us Now
                     </button>
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm font-medium">
+                <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 md:text-sm text-xs font-medium">
                     <p>© Copyright 2026 - Rbiomeds All Rights Reserved Copyright.</p>
                     <div className="flex gap-8 mt-4 md:mt-0">
                         <a href="https://rbshstudio.com" target="_blank" className="transition-colors">Powered By <span className="text-[#ff5400] font-bold">RBSH Studio</span> </a>
