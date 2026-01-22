@@ -6,12 +6,10 @@ import { ArrowUpRight, CheckCircle } from "lucide-react";
 
 const Hero = () => {
     return (
-        <section className="relative bg-white h-screen min-h-[800px] overflow-hidden flex items-center pt-20">
+        <section className="relative bg-white md:h-screen 2xl:min-h-[800px] overflow-hidden flex items-center pt-20 md:p-0 p-4">
             {/* Subtle Grid Pattern Overlay */}
-            <div className="absolute inset-0 opacity-[0.03] pointer-events-none"
-                style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '40px 40px' }} />
 
-            <div className="container mx-auto relative z-10 h-[calc(100vh-140px)] max-h-[950px]">
+            <div className="container mx-auto relative z-10">
                 <div className="bg-gradient-to-r from-red-900 to-[#ef662a] h-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 items-center p-6 md:p-2 lg:p-4 rounded-2xl overflow-hidden  border-white/10">
 
                     {/* Left Content */}
@@ -94,7 +92,7 @@ const Hero = () => {
                     </div>
 
                     {/* Right Content - Visual Grid */}
-                    <div className="hidden lg:grid grid-cols-2 gap-4 h-full relative ">
+                    <div className="lg:grid grid-cols-2 gap-4  h-full relative md:space-y-0 space-y-7 ">
 
                         {/* Top Large Card */}
                         <motion.div
@@ -107,7 +105,7 @@ const Hero = () => {
                                 src="/staff/6.png"
                                 alt="Doctor Consultation"
                                 fill
-                                className="object-cover group-hover:scale-105 transition-transform duration-1000"
+                                className="object-cover group-hover:scale-105 transition-transform duration-1000 "
                             />
 
                             <div className="absolute bottom-6 right-6 flex flex-wrap justify-end gap-2 max-w-[85%]">
@@ -165,7 +163,7 @@ const Hero = () => {
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7, delay: 0.6 }}
-                            className="bg-white rounded-2xl p-4 relative overflow-hidden border border-white/10 flex flex-col justify-between "
+                            className="bg-white rounded-2xl p-4 2xl:p-10 relative overflow-hidden border border-white/10 flex flex-col justify-between "
                         >
                             <div className="relative z-10">
                                 <h3 className="text-5xl font-black text-[#ef662a] leading-none">300+</h3>

@@ -35,7 +35,7 @@ const WelcomeSection = () => {
                                 transition={{ duration: 0.8 }}
                                 viewport={{ once: true }}
                             >
-                                <h1 className="text-2xl md:text-5xl font-light text-gray-900 ">Welcome to <span className="font-semibold hover:text-[#ef662a]">R-Biomeds</span></h1>
+                                <h1 className="text-2xl md:text-5xl 2xl:text-[5.2rem] font-light text-gray-900 ">Welcome to <span className="font-semibold hover:text-[#ef662a]"> <br className='md:hidden 2xl:block' />R-Biomeds</span></h1>
 
                             </motion.div>
 
