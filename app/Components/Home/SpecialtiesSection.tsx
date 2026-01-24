@@ -17,7 +17,7 @@ const SpecialtiesSection = () => {
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.8, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-6 2xl:p-10"
+                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
                         >
                             <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
                                 Our Vision
@@ -32,7 +32,7 @@ const SpecialtiesSection = () => {
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-6 2xl:p-10"
+                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
                         >
                             <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
                                 Our Culture
@@ -47,7 +47,7 @@ const SpecialtiesSection = () => {
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-6 2xl:p-10"
+                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
                         >
                             <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
                                 Our Mission
@@ -74,13 +74,13 @@ const SpecialtiesSection = () => {
 
 
                     {/* RIGHT COLUMN */}
-                    <div className="lg:col-span-4 flex flex-col gap-6 order-3 lg:order-3">
+                    <div className="lg:col-span-4 flex flex-col gap-8 order-3 lg:order-3">
                         <motion.div
                             initial={{ x: -120, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.8, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-6 2xl:p-10"
+                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
                         >
                             <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
                                 Execution Excellence
@@ -95,7 +95,7 @@ const SpecialtiesSection = () => {
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-6 2xl:p-10"
+                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
                         >
                             <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
                                 Our Values
@@ -110,7 +110,7 @@ const SpecialtiesSection = () => {
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-6 2xl:p-10"
+                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
                         >
                             <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
                                 Employee Value Proposition

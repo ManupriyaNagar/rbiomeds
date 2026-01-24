@@ -6,7 +6,7 @@ export default function OurPeopleSection() {
             className="
         bg-white
         py-10
-        pt-20 2xl:pt-30
+        pt-30 2xl:pt-30
         p-4 md:px-0
         h-auto md:h-[95vh]
       "
