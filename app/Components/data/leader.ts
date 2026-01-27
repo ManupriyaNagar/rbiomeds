@@ -42,13 +42,13 @@ export const boardMembers = [
     {
         name: "Prof. Soe Aung",
         role: "Advisory Board",
-        image: "/OurPeoples/16.png",
+        image: "/d2.png",
         bio: "Expert in supply chain and emerging markets."
     },
     {
         name: "Prof. Aung Sann Oo",
         role: "Advisory Board",
-        image: "/OurPeoples/17.png",
+        image: "/d1.png",
         bio: "Oversees financial strategy and fiscal responsibility."
     }
 
