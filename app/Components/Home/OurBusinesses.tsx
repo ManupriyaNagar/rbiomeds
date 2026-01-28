@@ -22,7 +22,7 @@ const OurBusinesses = () => {
             bgGradient: "from-[#9444A1] via-white to-[#9444A1]",
             textColor: "text-green-900",
             accent: "text-green-700",
-            link: "https://abcinternationalh.netlify.app/",
+            link: "https://rbvetshi.netlify.app/",
             type: "natural",
         },
     ];
