@@ -1,86 +1,108 @@
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 
 const OurBusinesses = () => {
     const businesses = [
         {
             title: "MAXXCARE",
             subTitle: "We Know How",
-            logo: "/images/businesses/maxxcare.png",
+            logo: "/logoa.png",
             description: "Market access solutions in Myanmar, Vietnam & Cambodia",
-            bgColor: "bg-[#e0f7fa]", // Light cyan
-            textColor: "text-[#1e293b]",
-            linkColor: "text-[#006064]",
-            type: "maxxcare"
+            bgGradient: "from-[#fae57f] via-white to-[#fae57f]",
+            textColor: "text-slate-800",
+            accent: "text-cyan-700",
+            link: "https://abcinternationalh.netlify.app/",
+            type: "maxxcare",
         },
         {
             title: "Natural",
-            subTitle: "We care",
-            description: "Inspiring shift to life-changing plant-based way of living",
-            bgColor: "bg-[#f1f8e9]", // Light green
-            textColor: "text-[#2e7d32]",
-            linkColor: "text-[#1b5e20]",
-            type: "natural"
-        }
+            subTitle: "We Care",
+            logo: "/logob.png",
+            description: "Inspiring shift to a life-changing plant-based way of living",
+            bgGradient: "from-[#9444A1] via-white to-[#9444A1]",
+            textColor: "text-green-900",
+            accent: "text-green-700",
+            link: "https://abcinternationalh.netlify.app/",
+            type: "natural",
+        },
     ];
 
     return (
-        <section className="py-24 bg-white">
+        <section className="py-28 bg-white">
             <div className="container mx-auto px-6">
-                {/* Heading Section */}
-                <div className="text-center mb-16">
-                    <h2 className="text-[3.5rem] font-black leading-tight mb-4 tracking-tighter shadow-sm inline-block">
-                        Our <span className="text-indigo-600">businesses</span>
+                {/* Heading */}
+                <div className="text-center mb-20">
+                    <h2 className="text-4xl md:text-5xl lg:text-5xl font-medium uppercase text-black mb-6 hover:text-[#ef662a]">
+                        Our <span className="">Businesses</span>
                     </h2>
-                    <p className="text-xl text-gray-500 font-medium">
-                        Helping you stay healthy as long as you live.
+                    <p className="text-xl text-gray-500 max-w-2xl mx-auto">
+                        Independent brands working together to improve lives globally.
                     </p>
                 </div>
 
-                {/* Cards Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
+                {/* Cards */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
                     {businesses.map((biz, index) => (
-                        <div
+                        <a
                             key={index}
-                            className={`${biz.bgColor} rounded-[3rem] p-12 flex flex-col items-center text-center group hover:shadow-2xl transition-all duration-500 ease-out cursor-pointer h-full`}
+                            href={biz.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group block h-full"
                         >
-                            {/* Logo Area */}
-                            <div className="relative w-full h-48 mb-8 flex items-center justify-center">
-                                {biz.type === "maxxcare" ? (
-                                    <div className="relative w-full h-full">
-                                        <Image
-                                            src={biz.logo || ""}
-                                            alt={biz.title}
-                                            fill
-                                            className="object-contain transition-transform duration-500 group-hover:scale-110"
-                                        />
-                                    </div>
-                                ) : (
-                                    /* Custom CSS Leaf Logo for "Natural We care" */
-                                    <div className="flex flex-col items-center">
-                                        <div className="relative w-32 h-32 bg-[#4caf50] rounded-tl-[100%] rounded-br-[100%] rounded-tr-[40%] rounded-bl-[40%] flex items-center justify-center shadow-lg transform rotate-[-15deg] group-hover:rotate-0 transition-transform duration-500">
-                                            <span className="text-white font-black text-2xl rotate-[15deg] group-hover:rotate-0 transition-transform duration-500">Natural</span>
-                                        </div>
-                                        <div className="mt-4">
-                                            <span className="text-3xl font-black text-[#2e7d32] uppercase tracking-tighter italic">We care</span>
-                                        </div>
-                                    </div>
-                                )}
-                            </div>
-
-                            {/* Content */}
-                            <p className={`text-2xl md:text-3xl font-bold ${biz.textColor} leading-tight mb-10 px-4`}>
-                                {biz.description}
-                            </p>
-
-                            {/* Link */}
-                            <a
-                                href="https://abcinternationalh.netlify.app/"
-                                className={`mt-auto inline-flex items-center gap-2 font-black uppercase text-lg tracking-widest ${biz.linkColor} hover:gap-4 transition-all duration-300`}
+                            <div
+                                className={`relative h-full rounded-[2.5rem] p-12 
+                bg-gradient-to-br ${biz.bgGradient}
+                border border-black/5
+               
+                transition-all duration-500`}
                             >
-                                Know More <ArrowRight className="w-6 h-6" />
-                            </a>
-                        </div>
+                                {/* Floating external icon */}
+                                <ExternalLink className="absolute top-8 right-8 w-5 h-5 text-black/30 group-hover:text-black transition" />
+
+                                {/* Logo */}
+                                <div className="h-44 flex items-center justify-center mb-10">
+                                    {biz.logo ? (
+                                        <Image
+                                            src={biz.logo}
+                                            alt={biz.title}
+                                            width={260}
+                                            height={120}
+                                            className="object-contain group-hover:scale-105 transition-transform duration-500"
+                                        />
+                                    ) : (
+                                        <div className="flex flex-col items-center">
+                                            <div className="w-28 h-28 bg-green-600 rounded-[40%_60%_40%_60%] flex items-center justify-center shadow-xl group-hover:rotate-3 transition">
+                                                <span className="text-white font-black text-xl">
+                                                    Natural
+                                                </span>
+                                            </div>
+                                            <span className="mt-4 text-2xl font-black text-green-800 italic tracking-tight">
+                                                We Care
+                                            </span>
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Content */}
+                                <p
+                                    className={`text-2xl md:text-3xl font-medium leading-snug text-center text-black mb-12`}
+                                >
+                                    {biz.description}
+                                </p>
+
+                                {/* CTA */}
+                                <div className="flex justify-center">
+                                    <div
+                                        className="inline-flex items-center gap-3 px-8 py-4 bg-black text-white rounded-full font-black uppercase tracking-widest text-xs
+                                        group-hover:bg-[#ef662a] transition-all duration-300 group-hover:gap-5 shadow-lg group-hover:shadow-[#ef662a]/20"
+                                    >
+                                        Visit Website
+                                        <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     ))}
                 </div>
             </div>

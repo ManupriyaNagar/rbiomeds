@@ -25,6 +25,7 @@ const ArticlesSection = () => {
     return (
         <section className="bg-white py-20">
             <div className="container mx-auto px-6">
+                <h1 className="text-4xl md:text-5xl lg:text-5xl font-medium uppercase text-black mb-6 hover:text-[#ef662a] text-center mb-12">Blogs</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                     {articles.map((article, index) => (
                         <ArticleCard key={index} {...article} />
@@ -35,7 +36,7 @@ const ArticlesSection = () => {
                         href="/articles"
                         className="group relative inline-flex items-center gap-3 px-10 py-4 bg-black text-white rounded-full font-bold text-lg hover:bg-[#ef662e] transition-all duration-300 shadow-xl hover:shadow-[#ef662e]/20 overflow-hidden"
                     >
-                        <span className="relative z-10 text-white">Explore More Articles</span>
+                        <span className="relative z-10 text-white">Explore More Blogs</span>
                         <div className="relative z-10 w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-white group-hover:text-[#ef662e] transition-all">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

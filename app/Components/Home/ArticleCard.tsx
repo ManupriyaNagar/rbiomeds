@@ -23,11 +23,11 @@ const ArticleCard = ({ image, date, title, href }: ArticleCardProps) => {
 
             {/* Content */}
             <div className="p-6 flex flex-col flex-1">
-                <p className="text-sm text-gray-500 mb-3">
-                    {date} &nbsp; <span className="underline">Article</span>
+                <p className="text-sm text-gray-500 mb-6">
+                    {date} &nbsp; <span className="underline">Blog</span>
                 </p>
 
-                <h3 className="text-lg font-semibold text-gray-900 leading-snug mb-6">
+                <h3 className="text-lg font-medium text-gray-900 leading-snug mb-6">
                     {title}
                 </h3>
 

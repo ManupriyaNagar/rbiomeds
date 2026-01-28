@@ -16,6 +16,17 @@ interface BmrResult {
     activityLevels: { [key: string]: number };
 }
 
+interface HeartRateResult {
+    maxHR: number;
+    zones: {
+        name: string;
+        range: string;
+        description: string;
+        color: string;
+        bg: string;
+    }[];
+}
+
 const CalculatorContent = () => {
     const searchParams = useSearchParams();
     const [activeTab, setActiveTab] = useState('bmi');
@@ -33,16 +44,18 @@ const CalculatorContent = () => {
     const [bmiResult, setBmiResult] = useState<BmiResult | null>(null);
     const [bmrResult, setBmrResult] = useState<BmrResult | null>(null);
     const [bodyFatResult, setBodyFatResult] = useState<number | null>(null);
+    const [heartRateResult, setHeartRateResult] = useState<HeartRateResult | null>(null);
 
     const tabs = [
         { id: 'bmi', label: 'BMI Calculator' },
         { id: 'bmr', label: 'BMR Calculator' },
         { id: 'bodyfat', label: 'Body Fat Calculator' },
+        { id: "heartrate", label: "Heart Rate Calculator" }
     ];
 
     useEffect(() => {
         const type = searchParams.get('type');
-        if (type && ['bmi', 'bmr', 'bodyfat'].includes(type)) {
+        if (type && ['bmi', 'bmr', 'bodyfat', 'heartrate'].includes(type)) {
             setActiveTab(type);
         }
     }, [searchParams]);
@@ -104,10 +117,28 @@ const CalculatorContent = () => {
         setBodyFatResult(parseFloat(fat.toFixed(1)));
     };
 
+    const calculateHeartRate = () => {
+        if (!age) return;
+        const a = parseFloat(age);
+        const maxHR = 220 - a;
+
+        const zones = [
+            { name: "Zone 1: Warm Up", range: `${Math.round(maxHR * 0.5)} - ${Math.round(maxHR * 0.6)} bpm`, description: "50-60% of Max. Improves health and recovery.", color: "text-emerald-500", bg: "bg-emerald-50" },
+            { name: "Zone 2: Fat Burn", range: `${Math.round(maxHR * 0.6)} - ${Math.round(maxHR * 0.7)} bpm`, description: "60-70% of Max. Improves basic endurance and fat burning.", color: "text-yellow-500", bg: "bg-yellow-50" },
+            { name: "Zone 3: Cardio", range: `${Math.round(maxHR * 0.7)} - ${Math.round(maxHR * 0.8)} bpm`, description: "70-80% of Max. Improves aerobic capacity and heart health.", color: "text-orange-500", bg: "bg-orange-50" },
+            { name: "Zone 4: Hardcore", range: `${Math.round(maxHR * 0.8)} - ${Math.round(maxHR * 0.9)} bpm`, description: "80-90% of Max. Increases maximum performance capacity.", color: "text-rose-500", bg: "bg-rose-50" },
+            { name: "Zone 5: Maximum", range: `${Math.round(maxHR * 0.9)} - ${maxHR} bpm`, description: "90-100% of Max. Helps fit athletes develop speed.", color: "text-red-500", bg: "bg-red-50" }
+        ];
+
+        setHeartRateResult({ maxHR, zones });
+    };
+
     const reset = () => {
         setHeight(''); setWeight(''); setAge(''); setNeck(''); setWaist(''); setHip('');
-        setBmiResult(null); setBmrResult(null); setBodyFatResult(null);
+        setBmiResult(null); setBmrResult(null); setBodyFatResult(null); setHeartRateResult(null);
     };
+
+
 
     return (
         <section className="py-20 bg-white min-h-screen">
@@ -182,7 +213,7 @@ const CalculatorContent = () => {
                                     placeholder="Years"
                                     value={age}
                                     onChange={(e) => setAge(e.target.value)}
-                                    className="w-full p-4 bg-white rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
+                                    className="w-full p-4 bg-white text-black rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
                                 />
                             </div>
 
@@ -193,7 +224,7 @@ const CalculatorContent = () => {
                                     placeholder="175"
                                     value={height}
                                     onChange={(e) => setHeight(e.target.value)}
-                                    className="w-full p-4 bg-white rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
+                                    className="w-full p-4 bg-white text-black rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
                                 />
                             </div>
 
@@ -204,7 +235,7 @@ const CalculatorContent = () => {
                                     placeholder="70"
                                     value={weight}
                                     onChange={(e) => setWeight(e.target.value)}
-                                    className="w-full p-4 bg-white rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
+                                    className="w-full p-4 bg-white text-black rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
                                 />
                             </div>
 
@@ -244,7 +275,12 @@ const CalculatorContent = () => {
                         </div>
 
                         <button
-                            onClick={activeTab === 'bmi' ? calculateBMI : activeTab === 'bmr' ? calculateBMR : calculateBodyFat}
+                            onClick={
+                                activeTab === 'bmi' ? calculateBMI :
+                                    activeTab === 'bmr' ? calculateBMR :
+                                        activeTab === 'bodyfat' ? calculateBodyFat :
+                                            calculateHeartRate
+                            }
                             className="w-full py-5 bg-[#ef662a] text-white font-bold uppercase text-lg rounded-full shadow-lg hover:shadow-orange-200 transition-all transform hover:-translate-y-1 active:translate-y-0"
                         >
                             Calculate Your Results
@@ -300,6 +336,31 @@ const CalculatorContent = () => {
                                         {bodyFatResult}%
                                     </h4>
                                     <p className="mt-4 text-green-600 font-bold uppercase text-xs tracking-widest">Calculated Healthy Composition</p>
+                                </div>
+                            )}
+
+                            {heartRateResult && activeTab === 'heartrate' && (
+                                <div className="space-y-6 animate-in fade-in slide-in-from-bottom-5">
+                                    <div className="bg-white border-2 border-[#ef662a]/10 rounded-[2.5rem] p-8 text-center shadow-sm">
+                                        <p className="text-[#ef662a] text-xs font-bold uppercase tracking-widest mb-1">Estimated Max Heart Rate</p>
+                                        <h4 className="text-5xl font-black text-[#1e293b] tracking-tighter">
+                                            {heartRateResult.maxHR} <span className="text-xl font-medium text-gray-400">bpm</span>
+                                        </h4>
+                                    </div>
+                                    <div className="bg-gray-50/50 rounded-[3.5rem] p-6 border border-gray-100">
+                                        <p className="text-center text-xs font-bold uppercase tracking-widest text-[#1e293b] mb-6">Target Training Zones</p>
+                                        <div className="space-y-4">
+                                            {heartRateResult.zones.map((zone) => (
+                                                <div key={zone.name} className={`${zone.bg} p-6 rounded-[2rem] shadow-sm border border-black/5 transition-transform hover:scale-[1.02] duration-300`}>
+                                                    <div className="flex justify-between items-start mb-2">
+                                                        <h5 className={`text-lg font-black ${zone.color}`}>{zone.name}</h5>
+                                                        <span className="font-black text-gray-900 bg-white px-4 py-1 rounded-full text-sm shadow-sm">{zone.range}</span>
+                                                    </div>
+                                                    <p className="text-gray-600 text-sm font-medium">{zone.description}</p>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
                                 </div>
                             )}
                         </div>
