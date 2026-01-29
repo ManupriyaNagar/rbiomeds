@@ -9,7 +9,10 @@ export default function Header() {
     const pathname = usePathname();
     const [menuOpen, setMenuOpen] = useState(false);
 
-    const isActive = (path) => pathname === path;
+    const isActive = (path) => {
+        if (path === "/") return pathname === "/";
+        return pathname.startsWith(path);
+    };
 
     const links = [
         { name: "Home", href: "/" },
@@ -39,8 +42,8 @@ export default function Header() {
                             key={link.name}
                             href={link.href}
                             className={`font-medium text-lg transition-colors ${isActive(link.href)
-                                    ? "text-[#ff5400]"
-                                    : "text-gray-600 hover:text-gray-900"
+                                ? "text-[#ff5400]"
+                                : "text-gray-600 hover:text-gray-900"
                                 }`}
                         >
                             {link.name}
@@ -80,8 +83,8 @@ export default function Header() {
                             href={link.href}
                             onClick={() => setMenuOpen(false)}
                             className={`text-lg font-medium ${isActive(link.href)
-                                    ? "text-[#ff5400]"
-                                    : "text-gray-700"
+                                ? "text-[#ff5400]"
+                                : "text-gray-700"
                                 }`}
                         >
                             {link.name}
