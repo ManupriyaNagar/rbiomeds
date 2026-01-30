@@ -156,15 +156,15 @@ const CalculatorContent = () => {
                 </div>
 
                 {/* Tab Navigation - Matches ExploreProduct */}
-                <div className="flex justify-center mb-16">
-                    <div className="inline-flex bg-gray-100 rounded-full p-1 border border-gray-200">
+                <div className="flex justify-center mb-16 ">
+                    <div className="inline-flex bg-gradient-to-r from-red-900 to-[#ef662a] gap-2 rounded-full p-1 border border-gray-200">
                         {tabs.map((tab) => (
                             <button
                                 key={tab.id}
                                 onClick={() => { setActiveTab(tab.id); reset(); }}
                                 className={`px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 ${activeTab === tab.id
                                     ? 'bg-white text-[#ef662a] shadow-md border border-[#ef662a]/10'
-                                    : 'text-gray-600 hover:bg-white/50 hover:text-[#ef662a]'
+                                    : 'text-white hover:bg-white hover:text-[#ef662a]'
                                     }`}
                             >
                                 {tab.label}
@@ -192,81 +192,81 @@ const CalculatorContent = () => {
 
                         {/* Input Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-                            <div className="space-y-4">
-                                <label className="block text-xs font-bold uppercase tracking-widest text-[#1e293b]">Gender</label>
+                            <div className="space-y-4 ">
+                                <label className="block text-md uppercase tracking-widest text-[#1e293b]">Gender</label>
                                 <div className="flex gap-4">
                                     <button
                                         onClick={() => setGender('male')}
-                                        className={`flex-1 py-4 rounded-full font-bold transition-all border-2 ${gender === 'male' ? 'bg-[#ef662a] text-white border-[#ef662a] shadow-md' : 'bg-white text-gray-500 border-gray-100 hover:border-[#ef662a]/30'}`}
+                                        className={`flex-1 text-xl py-2 rounded-full transition-all border-2 ${gender === 'male' ? 'bg-[#ef662a] text-white border-[#ef662a] shadow-md' : 'bg-white text-gray-500 border-gray-100 hover:border-[#ef662a]/30'}`}
                                     >Male</button>
                                     <button
                                         onClick={() => setGender('female')}
-                                        className={`flex-1 py-4 rounded-full font-bold transition-all border-2 ${gender === 'female' ? 'bg-[#ef662a] text-white border-[#ef662a] shadow-md' : 'bg-white text-gray-500 border-gray-100 hover:border-[#ef662a]/30'}`}
+                                        className={`flex-1 text-xl py-2 rounded-full transition-all border-2 ${gender === 'female' ? 'bg-[#ef662a] text-white border-[#ef662a] shadow-md' : 'bg-white text-gray-500 border-gray-100 hover:border-[#ef662a]/30'}`}
                                     >Female</button>
                                 </div>
                             </div>
 
                             <div className="space-y-4">
-                                <label className="block text-xs font-bold uppercase tracking-widest text-[#1e293b]">Age</label>
+                                <label className="block text-md  uppercase tracking-widest text-[#1e293b]">Age</label>
                                 <input
                                     type="number"
                                     placeholder="Years"
                                     value={age}
                                     onChange={(e) => setAge(e.target.value)}
-                                    className="w-full p-4 bg-white text-black rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
+                                    className="w-full p-4 bg-white text-gray-600 rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
                                 />
                             </div>
 
                             <div className="space-y-4">
-                                <label className="block text-xs font-bold uppercase tracking-widest text-[#1e293b]">Height (cm)</label>
+                                <label className="block text-md  uppercase tracking-widest text-[#1e293b]">Height (cm)</label>
                                 <input
                                     type="number"
                                     placeholder="175"
                                     value={height}
                                     onChange={(e) => setHeight(e.target.value)}
-                                    className="w-full p-4 bg-white text-black rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
+                                    className="w-full p-4 bg-white text-gray-600 rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
                                 />
                             </div>
 
                             <div className="space-y-4">
-                                <label className="block text-xs font-bold uppercase tracking-widest text-[#1e293b]">Weight (kg)</label>
+                                <label className="block text-md uppercase tracking-widest text-[#1e293b]">Weight (kg)</label>
                                 <input
                                     type="number"
                                     placeholder="70"
                                     value={weight}
                                     onChange={(e) => setWeight(e.target.value)}
-                                    className="w-full p-4 bg-white text-black rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
+                                    className="w-full p-4 bg-white text-gray-600 rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
                                 />
                             </div>
 
                             {activeTab === 'bodyfat' && (
                                 <>
                                     <div className="space-y-4">
-                                        <label className="block text-xs font-bold uppercase tracking-widest text-[#1e293b]">Neck (cm)</label>
+                                        <label className="block text-md font-bold uppercase tracking-widest text-[#1e293b]">Neck (cm)</label>
                                         <input
                                             type="number"
                                             value={neck}
                                             onChange={(e) => setNeck(e.target.value)}
-                                            className="w-full p-4 bg-white rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
+                                            className="w-full p-4 bg-white text-gray-600 rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
                                         />
                                     </div>
                                     <div className="space-y-4">
-                                        <label className="block text-xs font-bold uppercase tracking-widest text-[#1e293b]">Waist (cm)</label>
+                                        <label className="block text-md font-bold uppercase tracking-widest text-[#1e293b]">Waist (cm)</label>
                                         <input
                                             type="number"
                                             value={waist}
                                             onChange={(e) => setWaist(e.target.value)}
-                                            className="w-full p-4 bg-white rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
+                                            className="w-full p-4 bg-white text-gray-600 rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
                                         />
                                     </div>
                                     {gender === 'female' && (
                                         <div className="space-y-4">
-                                            <label className="block text-xs font-bold uppercase tracking-widest text-[#1e293b]">Hip (cm)</label>
+                                            <label className="block text-md font-bold uppercase tracking-widest text-[#1e293b]">Hip (cm)</label>
                                             <input
                                                 type="number"
                                                 value={hip}
                                                 onChange={(e) => setHip(e.target.value)}
-                                                className="w-full p-4 bg-white rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
+                                                className="w-full p-4 bg-white text-gray-600 rounded-2xl border-2 border-transparent focus:border-[#ef662a] transition-all font-bold outline-none shadow-sm"
                                             />
                                         </div>
                                     )}

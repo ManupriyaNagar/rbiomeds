@@ -68,18 +68,7 @@ export default function Sidebar({ activeCategory }) {
 
     return (
         <div className="space-y-10 group/sidebar">
-            {/* Filter by Country - Mock */}
-            {/* <div>
-                <h3 className="text-xl font-bold text-[#111827] mb-4">Filter by Country</h3>
-                <div className="relative">
-                    <select className="w-full bg-gray-50 border border-gray-200 rounded-full px-5 py-3 text-gray-500 appearance-none outline-none focus:border-[#ea9237] transition-colors cursor-pointer">
-                        <option>Select country</option>
-                    </select>
-                    <div className="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none">
-                        <ChevronRight className="w-4 h-4 text-gray-400 rotate-90" />
-                    </div>
-                </div>
-            </div> */}
+
 
             {/* Filter by Category */}
             <div>

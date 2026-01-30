@@ -4,309 +4,325 @@
             "id": "cardiovascular",
             "title": "ABC Apixaban 2.5 Mg",
             "description": "ABC Apixaban 2.5 Mg",
-            "image": "/d1.png"
+            "image": "/pro/72.png",
+            "image2": "/pro/344.png"
         },
         {
             "id": "cardiovascular",
             "title": "Atorsun 10 mg Tab",
             "description": "Atorsun 10 mg Tab",
-            "image": "/d1.png"
+            "image": "/pro/86.png",
+            "image2": "/pro/343.png"
         },
         {
             "id": "cardiovascular",
-            "title": "Aurora 10 mg Tab",
+            "title": "Aurora 5mg/10 mg Tab",
             "description": "Aurora 10 mg Tab",
-            "image": "/d1.png"
-        },
-        {
-            "id": "cardiovascular",
-            "title": "Aurora 5 mg Tab",
-            "description": "Aurora 5 mg Tab",
-            "image": "/d1.png"
+            "image": "/pro/87.png",
+            "image2": "/pro/327.png"
         },
         {
             "id": "cardiovascular",
             "title": "Carveda 6.25 mg Tab",
             "description": "Carveda 6.25 mg Tab",
-            "image": "/d1.png"
+            "image": "/pro/57.png",
+            "image2": "/pro/317.png"
         },
         {
             "id": "cardiovascular",
             "title": "Nicoril 10 mg Tab",
             "description": "Nicoril 10 mg Tab",
-            "image": "/d1.png"
+            "image": "/pro/353.png",
+            "image2": "/pro/191.png"
         },
         {
             "id": "cardiovascular",
             "title": "Xavor 50 mg Tab",
             "description": "Xavor 50 mg Tab",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "cardiovascular",
             "title": "Xavor DIU Tab",
             "description": "Xavor DIU Tab",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         }
     ],
     "anti-infectives-prescription": [
         {
             "id": "anti-infectives",
-            "title": "Acylex 200 mg Tab",
+            "title": "Acylex 200mg/400mg Tab",
             "description": "Anti Infectives",
-            "image": "/d1.png"
+            "image": "/pro/71.png",
+            "image2": "/pro/338.png"
         },
         {
             "id": "anti-infectives",
-            "title": "Acylex 400 mg Tab",
-            "description": "2X10's pack",
-            "image": "/d1.png"
-        },
-        {
-            "id": "anti-infectives",
-            "title": "Azeath 250 mg Tab",
+            "title": "Azeath 250/500 mg Tab",
             "description": "1 x 6's Pack",
-            "image": "/d1.png"
-        },
-        {
-            "id": "anti-infectives",
-            "title": "Azeath 500 mg Tab",
-            "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/pro/66.png",
+            "image2": "/pro/330.png"
         },
         {
             "id": "anti-infectives",
             "title": "Azic Suspension",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/pro/331.png",
+            "image2": "/pro/331.png"
         },
         {
             "id": "anti-infectives",
-            "title": "Azic 250 mg Tab",
+            "title": "Azic 250 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
-            "title": "Azic 500 mg Tab",
+            "title": "Azic 500 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
-            "title": "Clanoxy 375 Tab",
+            "title": "Clanoxy 375/625 Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/pro/63.png",
+            "image2": "/pro/288.png"
         },
         {
             "id": "anti-infectives",
-            "title": "Clanoxy 625 Tab",
+            "title": "Clarion 250/500 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
-        },
-        {
-            "id": "anti-infectives",
-            "title": "Clarion 250 mg Tab",
-            "description": "1 x 3's",
-            "image": "/d1.png"
-        },
-        {
-            "id": "anti-infectives",
-            "title": "Clarion 500 mg Tab",
-            "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/pro/62.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Clobmarksans Cream 10 gm",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Clobetamark Cream 15 gm",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Eleva Plus 1 gm Inj",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Eleva Plus 2 gm Inj",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Flucillin 250 mg Cap",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Flucillin 500 mg Cap",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Icon 100 mg Cap",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "IZOL 100",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "IZOL 200 mg Cap",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Levcian 500 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Levo 250 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Levo 500 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Luzo Crèam 10 gm",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/pro/9.png",
+            "image2": "/pro/235.png"
         },
         {
             "id": "anti-infectives",
             "title": "Molena 200mg",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Markvir Cream 15 gm",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Qink 100 mg Cap",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Quench cream",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Roxiten 150",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Samaxon Powder for Injection",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Samsaf Powder for Injection",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Sezo-B Cream",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/pro/12.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Theoflex-125 mg",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Theomycin 250 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Theozee 250 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Theozee 500 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Trifamox 1500 mg Inj",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Trifamox 500 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Trifamox 750 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Virq 250 mg Inj",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Vorif 200 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Zeekan Susp",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         },
         {
             "id": "anti-infectives",
             "title": "Zeftahl Powder for Injection",
             "description": "1 x 3's",
-            "image": "/d1.png"
+            "image": "/d1.png",
+            "image2": "/d2.png"
         }
     ],
     "oncology-prescription": [
@@ -314,187 +330,218 @@
             "id": "immuplex",
             "title": "Anastronat Tab",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Bagocap Cap",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Benzimir 100 mg",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Benzimir 25 mg",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Bevaas 100 mg Inj",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Bevaas 400 mg Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Carbomark 150 mg Inj",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Carbomark 450 mg Inj",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "CYCLOPHOS-MED 200 Powder for Injection",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "CYCLOPHOS-MED 500 Powder for Injectiong",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Donataxel 20 mg Inj",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Donataxel 80 mg Injj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Gembio 1 gm Inj",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Gembio 200 mg Inj",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Gemcel 1000 mg Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Gemcel 200 mg Inj",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Idelara 2.5 mg Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Oncofusion IV Infusion Set",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Oxamark 100 mg Inj",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Oxamark 50 mg Inj",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Paclimark 100 mg Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Paclimark 260 mg Inj",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Paclimark 30 mg Inj",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Panataxel 100 mg Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Panataxel 30 mg Inj",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Photofusion IV Infusion Set",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Sukuba Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Tamoxis",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Tzmide 100 mg Cap",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Tzmide 20 mg Cap",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Xpreza 100 Inj",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "ENT-prescription": [
@@ -502,31 +549,36 @@
             "id": "immuplex",
             "title": "Azeflumark Nasal Spray",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Ltriz ODS",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "LTRIZ M Tab",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Metomark Nasal Spray",
             "description": "Anastronat Tab",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Unocez Oral Solution",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "haematology-prescription": [
@@ -534,73 +586,85 @@
             "id": "immuplex",
             "title": "ASPARAG-MED Powder for Injection",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Bortemark 2 mg Inj",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Bortemark 3.5 mg Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Doxomark 10 mg Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Doxomark 50 mg Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Doxtie 50 mg Lyophilized Powder for Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Filgen 300 mcg Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Lenalid 10 Cap",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Lenalid 5 Cap",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Maturus",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Rilast 100 mg Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Rilast 500 mg Inj",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "local-anesthetics-prescription": [
@@ -608,19 +672,22 @@
             "id": "immuplex",
             "title": "Bupiright S Injection",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Lidomark Gel 30 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "GLUCOMEAL VANILLA",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "dermatology-prescription": [
@@ -628,31 +695,36 @@
             "id": "Calovera Lotion",
             "title": "Calovera Lotion",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "/pro/2.png",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Grohair 100 ml",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Grohair 60 ml",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Moist Boost Lotion",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "/pro/10.png",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Sun Lite SPF 50 Lotion",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "/pro/1.png",
+            "image2": "/pro/2.png"
         }
     ],
     "endocrinology-prescription": [
@@ -660,55 +732,64 @@
             "id": "immuplex",
             "title": "Carbima 10 mg Tab",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Glemaz 4 mg Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Sitafer 100 mg Tab",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Sitafer 50 mg Tab",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "T4 100 mcg Tab",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "T4 50 mcg Tab",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Thyromed 100 mcg Tab",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Thyromed 50 mcg Tab",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Valiant 50 mg Tab",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "analgesic-prescription": [
@@ -716,25 +797,29 @@
             "id": "glucomeal-vanilla",
             "title": "Celekop 100",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Celekop-200",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Theofenac 100 mg Tab",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Theofenac 200 mg Tab",
             "description": "An easy and effective meal and snack solution for diabetics.",
-            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "hepatology-prescription": [
@@ -742,13 +827,15 @@
             "id": "immuplex",
             "title": "Centaurus 0.5 mg Tab",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Tenofovir Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "nephrology-prescription": [
@@ -756,25 +843,29 @@
             "id": "immuplex",
             "title": "Derise 25 mcg Inj",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Derise 40 mcg Inj",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Eritrogen 2000 IU Inj",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Eritrogen 4000 IU Inj",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "gi-prescription": [
@@ -782,97 +873,113 @@
             "id": "immuplex",
             "title": "Dynetic 50 mg Tab",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Esomega 20 mg cap",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Esomega 40 mg cap",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Ezylaz Sachet 6 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Ezopep 20 mg Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Ezopep 40 mg Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Esoright Powder for Injection",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Fortigermina Susp (2 bn Spores)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Ifaxa 200 mg Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Ifaxa 550 mg Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Novapressin Inj",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Ondan MDS 4 mg",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Ondan MDS 8 mg",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Rabgen Powder for Injection",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Theorpraz Plus",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Vomisun 10 mg Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "urology-prescription": [
@@ -880,13 +987,15 @@
             "id": "immuplex",
             "title": "F 5 Tab",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Flosure (2x10's) Capsule",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "oral-care-prescription": [
@@ -894,7 +1003,8 @@
             "id": "rekover",
             "title": "Fluritop Mouthwash",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "biosimilar-prescription": [
@@ -902,7 +1012,8 @@
             "id": "rekover",
             "title": "Tocilizumab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "neurology-prescription": [
@@ -910,7 +1021,8 @@
             "id": "rekover",
             "title": "VALPROMEGH 200 (Oral Solution)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "kids-care-wellness": [
@@ -918,13 +1030,15 @@
             "id": "immuplex",
             "title": "A2Z Drop 30 ml",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "A2Z Syrup 200 ml",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "general-wellbeing-wellness": [
@@ -932,13 +1046,15 @@
             "id": "immuplex",
             "title": "A2Z soft gel Cap",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Antoxid Cap",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "women-wellness": [
@@ -946,7 +1062,8 @@
             "id": "immuplex",
             "title": "Bio E Soft gel Cap",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "diabetic-care-wellness": [
@@ -954,7 +1071,8 @@
             "id": "immuplex",
             "title": "DiaVit Softgel Cap",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "eye-care-wellness": [
@@ -962,7 +1080,8 @@
             "id": "immuplex",
             "title": "I-Vit soft gel Cap",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "neuro-wellness": [
@@ -970,7 +1089,8 @@
             "id": "immuplex",
             "title": "Mcobalmin",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "bone-health-wellness": [
@@ -978,7 +1098,8 @@
             "id": "immuplex",
             "title": "Tendocian Tabp",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "general-wellbeing-health": [
@@ -986,217 +1107,253 @@
             "id": "immuplex",
             "title": "Bioskin Hand Sanitizer Gel 125 ml",
             "description": "Ideal health drink to stay healthy & active",
-            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "rekover",
             "title": "Cal D3 Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Clinsodent Brush",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Dermavit Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "/pro/13.png",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Hexidine  Mouthwash 160 ml",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Hexidine  Mouthwash 80 ml",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Hi-Cal Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "ORO FRESH Mouth Freshner",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Orofresh Herbal Toothpaste 100 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Orofresh Herbal Toothpaste 20 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Orofresh Herbal Toothpaste 50 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "/pro/14.png",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Orofresh Kids Dental Gel 50 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Orofresh Mouthwash 100 ml",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Orofresh Mouthwash 200 ml",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Orofresh Sensitive Toothpaste 100 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Orofresh Sensitive Toothpaste 20 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Orofresh Sensitive Toothpaste 50 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "/pro/14.png",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "RA Thermoseal Gel 100 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "RA Thermoseal Gel 15 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "RA Thermoseal Paste 100 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "RA Thermoseal Paste 15 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "RA Thermoseal Paste 50 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Shine N Smile 15g",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Shine N Smile 80g",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Thermoseal Floss 50 Mtr",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Thermoseal Ortho Brush",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Thermoseal Proxa NS",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Thermoseal Repair Paste 100 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Thermoseal Repair Paste 15 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Thermoseal Smart Tooth Brush",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Thermoseal Tooth Brush",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Thermoseal Ultrasoft",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Vit D3 ODS",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Vitagen Vitamin C Chewable Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Vitagen Zinc Chelate Tab",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Younifloss",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "child-health": [
@@ -1204,37 +1361,43 @@
             "id": "immuplex",
             "title": "Cal D3 Syrup",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Hi-Cal Syrup",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Kids Bunny Gel 15 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Kids Bunny Gel 80 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Kids Dyny Brush",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Vit D3 Drops 200 IU",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "women-health": [
@@ -1242,7 +1405,8 @@
             "id": "immuplex",
             "title": "GLA soft gel Cap",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "nutrition-vetcare": [
@@ -1250,19 +1414,22 @@
             "id": "immuplex",
             "title": "Drools Absolute Calcium Bone For Pets 300 gm (Dog)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Drools Absolute Salmon Oil For Pets 150 ml (Dog)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Drools Real Chicken Biscuits 800 Gms",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ],
     "food-vetcare": [
@@ -1270,73 +1437,85 @@
             "id": "immuplex",
             "title": "Drools Chicken And Egg Adult 21 Kg (Dog)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Daily Nutrition Chicken And Egg Adult 3 kg (Dog)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Daily Nutrition Chicken And Egg Adult 400 gm (Dog)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Drools Chicken And Egg Puppy 21 Kg (Dog)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Daily Nutrition Chicken And Egg Puppy 3 Kg (Dog)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Daily Nutrition Chicken And Egg Puppy 400 gm (Dog)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Daily Nutrition Ocean Fish for Cat 400 gm (Cat)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Daily Nutrition Ocean Fish for Cat 60 gm (Cat)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Drools Ocean Fish for Kitten 4 Kg (Cat)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Daily Nutrition Ocean Fish for Kitten 400 gm (Cat)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Daily Nutrition Ocean Fish for Kitten 60 gm (Cat)",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         },
         {
             "id": "immuplex",
             "title": "Daily Nutrition Tuna Salmon for Cat 400 gm",
             "description": "Boost immunity and maintain your overall health",
-            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop",
+            "image2": "/d2.png"
         }
     ]
 }

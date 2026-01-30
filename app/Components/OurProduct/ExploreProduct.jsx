@@ -55,8 +55,6 @@ const tabs = [
     { id: 'health', label: 'Health Concerns' },
     { id: 'medical', label: 'Medical Devices' },
     { id: 'vetcare', label: 'Vet Care' },
-
-
 ];
 
 export default function ExploreProducts() {
@@ -79,15 +77,15 @@ export default function ExploreProducts() {
                 </div>
 
                 {/* Tab Navigation */}
-                <div className="flex justify-center mb-16">
-                    <div className="inline-flex bg-gradient-to-r from-red-900 to-[#ef662a] rounded-full p-1 ">
+                <div className="flex justify-center mb-16 ">
+                    <div className="inline-flex gap-2 bg-gradient-to-r from-red-900 to-[#ef662a] rounded-full p-1 ">
                         {tabs.map((tab) => (
                             <button
                                 key={tab.id}
                                 onClick={() => setActiveTab(tab.id)}
-                                className={`px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 ${activeTab === tab.id
-                                    ? 'bg-white text-[#ef662a] border border-[#ef662a]/10'
-                                    : 'text-white hover:bg-white/50 hover:text-[#ef662a]'
+                                className={`px-10 py-3 rounded-full text-lg font-medium transition-all duration-300 ${activeTab === tab.id
+                                    ? 'bg-white text-[#ef662a] shadow-md'
+                                    : 'text-white hover:bg-white hover:text-[#ef662a]'
                                     }`}
                             >
                                 {tab.label}
@@ -106,10 +104,8 @@ export default function ExploreProducts() {
                                 className="flex flex-col items-center group cursor-pointer"
                             >
                                 <div className="relative w-32 h-32 mb-4 transition-transform duration-300 group-hover:scale-110">
-                                    {/* Decorative Background Blob - Updated to Yellow/Orange */}
                                     <div className="absolute inset-0 bg-[#fae57f]/30 rounded-full blur-xl scale-0 group-hover:scale-100 transition-transform duration-500 opacity-60"></div>
 
-                                    {/* Image Container - Updated border on hover */}
                                     <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-transparent group-hover:border-[#ef662a]/20 transition-all duration-300">
                                         <img
                                             src={category.image}

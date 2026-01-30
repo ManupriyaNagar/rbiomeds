@@ -9,7 +9,13 @@ export default function ProductCard({ product }) {
                         src={product.image}
                         alt={product.title}
                         fill
-                        className="object-contain transition-transform duration-500 group-hover:scale-110"
+                        className="object-contain opacity-100 transition-opacity duration-500 group-hover:opacity-0"
+                    />
+                    <Image
+                        src={product.image2}
+                        alt={product.title}
+                        fill
+                        className="object-contain opacity-0 transition-opacity duration-500 group-hover:opacity-100"
                     />
                 </div>
             </div>
