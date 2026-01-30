@@ -39,15 +39,15 @@
             "id": "cardiovascular",
             "title": "Xavor 50 mg Tab",
             "description": "Xavor 50 mg Tab",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/1.jpeg",
+            "image2": "/new/21.jpeg"
         },
         {
             "id": "cardiovascular",
             "title": "Xavor DIU Tab",
             "description": "Xavor DIU Tab",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/3.jpeg",
+            "image2": "/new/4.jpeg"
         }
     ],
     "anti-infectives-prescription": [
@@ -69,22 +69,15 @@
             "id": "anti-infectives",
             "title": "Azic Suspension",
             "description": "1 x 3's",
-            "image": "/pro/331.png",
+            "image": "/new/5.jpeg",
             "image2": "/pro/331.png"
         },
         {
             "id": "anti-infectives",
-            "title": "Azic 250 mg Tab",
+            "title": "Azic 250/500 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
-        },
-        {
-            "id": "anti-infectives",
-            "title": "Azic 500 mg Tab",
-            "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/6.jpeg",
+            "image2": "/new/7.jpeg"
         },
         {
             "id": "anti-infectives",
@@ -98,98 +91,77 @@
             "title": "Clarion 250/500 mg Tab",
             "description": "1 x 3's",
             "image": "/pro/62.png",
-            "image2": "/d2.png"
+            "image2": "/new/8.jpeg"
         },
         {
             "id": "anti-infectives",
             "title": "Clobmarksans Cream 10 gm",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/9.jpeg",
+            "image2": "/new/10.jpeg"
         },
         {
             "id": "anti-infectives",
             "title": "Clobetamark Cream 15 gm",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/11.jpeg",
+            "image2": "/new/12.jpeg"
         },
         {
             "id": "anti-infectives",
-            "title": "Eleva Plus 1 gm Inj",
+            "title": "Eleva Plus 1/2 gm Inj",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/14.jpeg",
+            "image2": "/new/13.jpeg"
         },
         {
             "id": "anti-infectives",
-            "title": "Eleva Plus 2 gm Inj",
+            "title": "Flucillin 250/500 mg Cap",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
-        },
-        {
-            "id": "anti-infectives",
-            "title": "Flucillin 250 mg Cap",
-            "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
-        },
-        {
-            "id": "anti-infectives",
-            "title": "Flucillin 500 mg Cap",
-            "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/15.jpeg",
+            "image2": "/new/16.jpeg"
         },
         {
             "id": "anti-infectives",
             "title": "Icon 100 mg Cap",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/17.jpeg",
+            "image2": "/new/18.jpeg"
         },
         {
             "id": "anti-infectives",
             "title": "IZOL 100",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/19.jpeg",
+            "image2": "/new/20.jpeg"
         },
         {
             "id": "anti-infectives",
             "title": "IZOL 200 mg Cap",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/22.jpeg",
+            "image2": "/new/23.jpeg"
         },
         {
             "id": "anti-infectives",
             "title": "Levcian 500 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/24.jpeg",
+            "image2": "/new/25.jpeg"
         },
         {
             "id": "anti-infectives",
-            "title": "Levo 250 mg Tab",
+            "title": "Levo 250/500 mg Tab",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
-        },
-        {
-            "id": "anti-infectives",
-            "title": "Levo 500 mg Tab",
-            "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/new/26.jpeg",
+            "image2": "/new/27.jpeg"
         },
         {
             "id": "anti-infectives",
             "title": "Luzo Crèam 10 gm",
             "description": "1 x 3's",
-            "image": "/pro/9.png",
-            "image2": "/pro/235.png"
+            "image": "/new/28.jpeg",
+            "image2": "/new/29.jpeg"
         },
         {
             "id": "anti-infectives",

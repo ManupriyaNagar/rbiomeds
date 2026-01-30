@@ -63,7 +63,7 @@ const HealthCalculators = () => {
                             onMouseLeave={() => setHoveredIndex(null)}
                         >
                             {/* Image/Icon Wrapper - Styled like Showcasing cards */}
-                            <div className={`relative h-56 rounded-3xl overflow-hidden border-2 flex items-center justify-center transition-all duration-500 bg-gray-50`}>
+                            <div className={`relative h-56 rounded-3xl overflow-hidden flex items-center justify-center transition-all duration-500 bg-white`}>
 
                                 <Image
                                     src={calc.icon}
@@ -72,7 +72,6 @@ const HealthCalculators = () => {
                                     height={220}
                                     className="object-contain transition-transform duration-700 "
                                 />
-
                             </div>
 
                             {/* Floating Content Box - Matches Showcasing style */}
