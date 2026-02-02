@@ -72,12 +72,12 @@ export default function Sidebar({ activeCategory }) {
 
             {/* Filter by Category */}
             <div>
-                <h3 className="text-xl font-bold text-[#111827] mb-4">Filter by Category</h3>
+                <h3 className="text-xl font-bold text-black mb-4">Filter by Category</h3>
                 <div className="relative mb-6">
                     <input
                         type="text"
                         placeholder="Search Categories"
-                        className="w-full bg-gray-50 border border-gray-200 rounded-full pl-12 pr-5 py-3 text-gray-600 outline-none focus:border-[#ea9237] transition-colors"
+                        className="w-full bg-gray-50 border border-gray-200 rounded-full pl-12 pr-5 py-3 text-gray-600 outline-none focus:border-[#ef662a] transition-colors"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                     />
@@ -96,8 +96,8 @@ export default function Sidebar({ activeCategory }) {
                                         key={cat.slug}
                                         href={`/ourproduct/${cat.slug}`}
                                         className={`flex items-center justify-between px-2 py-2 rounded-lg group/item transition-all ${activeCategory === cat.slug
-                                            ? 'bg-[#ea9237]/10 text-[#ea9237] font-semibold'
-                                            : 'text-gray-600 hover:bg-gray-50 hover:text-[#ea9237]'
+                                            ? 'bg-[#ef662a]/10 text-[#ef662a] font-semibold'
+                                            : 'text-gray-600 hover:bg-gray-50 hover:text-[#ef662a]'
                                             }`}
                                     >
                                         <span className="text-[15px]">{cat.title}</span>

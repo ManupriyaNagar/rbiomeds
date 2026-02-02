@@ -52,11 +52,11 @@ export default async function CategoryPage({ params }) {
                 <div className="container mx-auto px-6">
                     {/* Breadcrumbs */}
                     <nav className="flex items-center gap-2 text-sm text-gray-500 mb-8 overflow-x-auto whitespace-nowrap">
-                        <Link href="/" className="hover:text-[#ea9237]">Home</Link>
+                        <Link href="/" className="hover:text-[#ef662a]">Home</Link>
                         <ChevronRight className="w-4 h-4" />
-                        <Link href="/ourproduct" className="hover:text-[#ea9237]">Products</Link>
+                        <Link href="/ourproduct" className="hover:text-[#ef662a]">Products</Link>
                         <ChevronRight className="w-4 h-4" />
-                        <span className="text-[#111827] font-medium">{categoryTitle}</span>
+                        <span className="text-[#000000] font-medium">{categoryTitle}</span>
                     </nav>
 
                     <div className="flex flex-col lg:flex-row gap-12">
@@ -67,7 +67,7 @@ export default async function CategoryPage({ params }) {
 
                         {/* Product Content */}
                         <div className="flex-1">
-                            <h1 className="text-4xl font-bold text-[#111827] mb-10">{categoryTitle}</h1>
+                            <h1 className="text-4xl font-bold text-[#000000] mb-10">{categoryTitle}</h1>
 
                             {products.length > 0 ? (
                                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
