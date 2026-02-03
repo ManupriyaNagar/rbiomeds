@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight, CheckCircle } from "lucide-react";
 
@@ -24,7 +25,7 @@ const Hero = () => {
                                 <CheckCircle className="w-3 h-3 text-white" />
                             </div>
                             <span className="text-white/90 text-xs font-semibold tracking-wide uppercase">
-                                Instant access to certified doctors
+                                Advancing Healthcare Access Across Emerging Markets
                             </span>
                         </motion.div>
 
@@ -52,10 +53,10 @@ const Hero = () => {
                             transition={{ duration: 0.5, delay: 0.3 }}
                             className="flex items-center gap-4"
                         >
-                            <button className="group bg-[#ef662a] hover:bg-white text-white hover:text-[#ef662a] px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 flex items-center gap-2 ">
-                                Book a Consultation
+                            <Link href="/services" className="group bg-[#ef662a] hover:bg-white text-white hover:text-[#ef662a] px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 flex items-center gap-2 ">
+                                Explore Our Services
                                 <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                            </button>
+                            </Link>
                         </motion.div>
 
                         {/* stats card for 200k */}
@@ -109,7 +110,7 @@ const Hero = () => {
                             />
 
                             <div className="absolute bottom-6 right-6 flex flex-wrap justify-end gap-2 max-w-[85%]">
-                                {['Symptoms', 'Body Area', 'Specialization', 'Risk Factors', 'Condition Name', 'Population Group'].map((tag) => (
+                                {['Marketing', 'Distribution', 'Importation', 'Regulatory', 'Trademark Registration', 'Healthcare Consultancy'].map((tag) => (
                                     <span key={tag} className="px-3 py-1.5 bg-black/50 backdrop-blur-md border border-white/10 rounded-full text-white text-[10px] uppercase tracking-wider font-bold hover:bg-[#ef662a] hover:text-white transition-all cursor-default whitespace-nowrap">
                                         {tag}
                                     </span>

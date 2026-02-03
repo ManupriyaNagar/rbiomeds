@@ -132,7 +132,7 @@
             "id": "anti-infectives",
             "title": "IZOL 100",
             "description": "1 x 3's",
-            "image": "/new/19.jpeg",
+            "image": "/anti-infectives/izolpack.png",
             "image2": "/new/20.jpeg"
         },
         {
@@ -140,148 +140,147 @@
             "title": "IZOL 200 mg Cap",
             "description": "1 x 3's",
             "image": "/new/22.jpeg",
-            "image2": "/new/23.jpeg"
+            "image2": "/new/22.jpeg"
         },
         {
             "id": "anti-infectives",
             "title": "Levcian 500 mg Tab",
             "description": "1 x 3's",
-            "image": "/new/24.jpeg",
-            "image2": "/new/25.jpeg"
+            "image": "/anti-infectives/levcian.png",
+            "image2": "/anti-infectives/levcianpack.png"
         },
         {
             "id": "anti-infectives",
             "title": "Levo 250/500 mg Tab",
             "description": "1 x 3's",
-            "image": "/new/26.jpeg",
-            "image2": "/new/27.jpeg"
+            "image": "/anti-infectives/levopack.png",
+            "image2": "/anti-infectives/levo.png"
         },
         {
             "id": "anti-infectives",
             "title": "Luzo Crèam 10 gm",
             "description": "1 x 3's",
-            "image": "/new/28.jpeg",
-            "image2": "/new/29.jpeg"
+            "image": "/anti-infectives/luzopack.png",
+            "image2": "/anti-infectives/luzo.png"
         },
         {
             "id": "anti-infectives",
             "title": "Molena 200mg",
             "description": "1 x 3's",
-            "image": "/d1.png",
-            "image2": "/d2.png"
+            "image": "/anti-infectives/molena.png",
+            "image2": "/anti-infectives/molenapack.png"
         },
         {
             "id": "anti-infectives",
             "title": "Markvir Cream 15 gm",
             "description": "1 x 3's",
-            "image": "/pro/354.png",
-            "image2": "/pro/214.png"
+            "image": "/anti-infectives/markvir.png",
+            "image2": "/anti-infectives/markvirpack.png"
         },
         {
             "id": "anti-infectives",
             "title": "Qink 100 mg Cap",
             "description": "1 x 3's",
-            "image": "/pro/quink.png",
-            "image2": "/pro/170.png"
+            "image": "/anti-infectives/qinkpack.png",
+            "image2": "/anti-infectives/qink.png"
         },
         {
             "id": "anti-infectives",
             "title": "Quench cream",
             "description": "1 x 3's",
-            "image": "/pro/quench.png",
-            "image2": "/pro/153.png"
+            "image": "/anti-infectives/quenchpack.png",
+            "image2": "/anti-infectives/quench.png"
         },
         {
             "id": "anti-infectives",
             "title": "Roxitem 150",
             "description": "1 x 3's",
-            "image": "/pro/roxitem.png",
-            "image2": "/pro/147.png"
+            "image": "/anti-infectives/roxitempack.png",
+            "image2": "/anti-infectives/roxitem.png"
         },
         {
             "id": "anti-infectives",
             "title": "Samaxon Powder for Injection",
             "description": "1 x 3's",
-            "image": "/pro/samaxon.png",
-            "image2": "/pro/185.png"
+            "image": "/anti-infectives/samaxonpack.png",
+            "image2": "/anti-infectives/samaxon.png"
         },
         {
             "id": "anti-infectives",
             "title": "Samsaf Powder for Injection",
             "description": "1 x 3's",
-            "image": "/pro/samsaf.png",
-            "image2": "/pro/138.png"
+            "image": "/anti-infectives/samsafpack.png",
+            "image2": "/anti-infectives/samsaf.png"
         },
         {
             "id": "anti-infectives",
             "title": "Sezo-B Cream",
             "description": "1 x 3's",
-            "image": "/pro/12.png",
-            "image2": "/pro/161.png"
+            "image": "/anti-infectives/sezopack.png",
+            "image2": "/anti-infectives/sezo.png"
         },
         {
             "id": "anti-infectives",
             "title": "Theoflex-125 mg",
             "description": "1 x 3's",
-            "image": "/pro/theoflex.png",
-            "image2": "/pro/156.png"
+            "image": "/anti-infectives/theoflexpack.png",
+            "image2": "/anti-infectives/theoflex.png"
         },
         {
             "id": "anti-infectives",
             "title": "Theomycin 250 mg Tab",
             "description": "1 x 3's",
-            "image": "/pro/theomycin.png",
-            "image2": "/pro/103.png"
+            "image": "/anti-infectives/theomycinpack.png",
+            "image2": "/anti-infectives/theomycin.png"
         },
         {
             "id": "anti-infectives",
             "title": "Theozee 250 mg Tab",
             "description": "1 x 3's",
-            "image": "/pro/throzee250.png",
-            "image2": "/pro/105.png"
+            "image": "/anti-infectives/theozee250pack.png",
+            "image2": "/anti-infectives/theozee250.png"
         },
         {
             "id": "anti-infectives",
             "title": "Theozee 500 mg Tab",
             "description": "1 x 3's",
-            "image": "/pro/theozee500.png",
-            "image2": "/pro/126.png"
+            "image": "/anti-infectives/theozeepack.png",
+            "image2": "/anti-infectives/theozee.png"
         },
         {
             "id": "anti-infectives",
             "title": "Trifamox 500/750/1500 mg Inj",
             "description": "1 x 3's",
-            "image": "/pro/trifamox.png",
-            "image2": "/pro/130.png"
+            "image": "/anti-infectives/trifamoxpack.png",
+            "image2": "/anti-infectives/trifamox.png"
         },
-      
         {
             "id": "anti-infectives",
             "title": "Virq 250 mg Inj",
             "description": "1 x 3's",
-            "image": "/pro/virqPack.png",
-            "image2": "/pro/131.png"
+            "image": "/anti-infectives/virqpack.png",
+            "image2": "/anti-infectives/virq.png"
         },
         {
             "id": "anti-infectives",
             "title": "Vorif 200 mg Tab",
             "description": "1 x 3's",
-            "image": "/pro/vorif.png",
-            "image2": "/pro/133.png"
+            "image": "/anti-infectives/vorifpack.png",
+            "image2": "/anti-infectives/vorif.png"
         },
         {
             "id": "anti-infectives",
             "title": "Zeekan Susp",
             "description": "1 x 3's",
-            "image": "/pro/zeekan.png",
-            "image2": "/pro/113.png"
+            "image": "/anti-infectives/zeekanpack.png",
+            "image2": "/anti-infectives/zeekan.png"
         },
         {
             "id": "anti-infectives",
             "title": "Zeftahl Powder for Injection",
             "description": "1 x 3's",
-            "image": "/pro/zeftahl.png",
-            "image2": "/pro/zeftahlPack.png"
+            "image": "/anti-infectives/zeftahlpack.png",
+            "image2": "/anti-infectives/zeftahl.png"
         }
     ],
     "oncology-prescription": [
@@ -313,7 +312,6 @@
             "image": "/oncology/BevaasPack.png",
             "image2": "/oncology/Bevaas.png"
         },
-    
         {
             "id": "immuplex",
             "title": "Carbomark 150/450 mg Inj",
@@ -342,7 +340,6 @@
             "image": "/oncology/DonataxelPack.png",
             "image2": "/oncology/Donataxel.png"
         },
-       
         {
             "id": "immuplex",
             "title": "Gembio 200mg/1gm Inj",
@@ -357,7 +354,6 @@
             "image": "/oncology/GemcelPack.png",
             "image2": "/oncology/Gemcel.png"
         },
-      
         {
             "id": "rekover",
             "title": "Idelara 2.5 mg Tab",
@@ -904,7 +900,6 @@
             "image": "/GeneralWellBeingHealth/HexidineMWPack.png",
             "image2": "/GeneralWellBeingHealth/HexidineMW.png"
         },
-       
         {
             "id": "immuplex",
             "title": "Hi-Cal Tab",

@@ -22,10 +22,10 @@ export default function ProductSection() {
                     </h1>
 
                     <div className="mt-4 space-y-2 text-white">
-                        <p className="text-sm sm:text-base lg:text-lg 2xl:text-xl">
+                        <p className="text-sm sm:text-base lg:text-xl 2xl:text-xl">
                             R-Biomeds works with the best partners across the globe
                         </p>
-                        <p className="text-sm sm:text-base lg:text-lg 2xl:text-xl">
+                        <p className="text-sm sm:text-base lg:text-xl 2xl:text-xl">
                             Having over “600” quality brands working together with us, here are some of our international partners.
                         </p>
                     </div>
