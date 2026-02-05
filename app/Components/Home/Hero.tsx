@@ -102,10 +102,9 @@ const Hero = () => {
                             transition={{ duration: 0.7, delay: 0.2 }}
                             className="col-span-2 relative bg-white rounded-3xl overflow-hidden aspect-[12/9] group border border-white/10 "
                         >
-                            <Image
+                            <img
                                 src="/staff/6.png"
                                 alt="Doctor Consultation"
-                                fill
                                 className="object-cover group-hover:scale-105 transition-transform duration-1000 "
                             />
 

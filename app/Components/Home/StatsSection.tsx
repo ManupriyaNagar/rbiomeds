@@ -46,10 +46,9 @@ const StatsSection = () => {
                             </div>
 
                             <div className="relative w-full h-[200px] md:flex-1 md:min-h-[180px]">
-                                <Image
+                                <img
                                     src="/staff/s1.png"
                                     alt="Staff"
-                                    fill
                                     className="object-contain md:scale-125 md:translate-y-5"
                                 />
                             </div>

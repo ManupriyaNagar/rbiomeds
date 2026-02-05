@@ -187,7 +187,7 @@ const Footer = () => {
 
                 {/* Bottom Bar */}
                 <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 md:text-sm text-xs font-medium mt-12">
-                    <p>© Copyright 2026 - Rbiomeds All Rights Reserved Copyright.</p>
+                    <p>© Copyright 2026 - Rbiomeds All Rights Reserved Copyright. | <a href="/admin" className="hover:text-[#ef662e] transition-colors">Admin Portal</a></p>
                     <div className="flex gap-8 mt-4 md:mt-0">
                         <a href="https://rbshstudio.com" target="_blank" className="transition-colors">Powered By <span className="text-[#ff5400] font-bold">RBSH Studio</span> </a>
                     </div>

@@ -18,10 +18,9 @@ const WelcomeSection = () => {
                             viewport={{ once: true }}
                             className="lg:col-span-5 relative h-[400px] md:h-[400px] lg:h-[700px] rounded-2xl overflow-hidden "
                         >
-                            <Image
+                            <img
                                 src="/staff/10.png" // Using an existing large image as placeholder, user can replace
                                 alt="R-Biomeds HQ"
-                                fill
                                 className="object-cover"
                             />
 
