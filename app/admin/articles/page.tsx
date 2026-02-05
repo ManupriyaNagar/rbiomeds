@@ -30,7 +30,7 @@ const AdminArticles = () => {
 
     const fetchArticles = async () => {
         try {
-            const response = await fetch("http://localhost:5001/api/articles");
+            const response = await fetch("https://rbiomedsback.onrender.com/api/articles");
             if (!response.ok) throw new Error("Failed to fetch");
             const data = await response.json();
             setArticles(data);
@@ -50,8 +50,8 @@ const AdminArticles = () => {
         setSubmitting(true);
         try {
             const url = editingId
-                ? `http://localhost:5001/api/articles/${editingId}`
-                : "http://localhost:5001/api/articles";
+                ? `https://rbiomedsback.onrender.com/api/articles/${editingId}`
+                : "https://rbiomedsback.onrender.com/api/articles";
             const method = editingId ? "PUT" : "POST";
 
             const response = await fetch(url, {
@@ -86,7 +86,7 @@ const AdminArticles = () => {
     const handleDelete = async (id: string) => {
         if (!confirm("Are you sure you want to delete this article? This action cannot be undone.")) return;
         try {
-            const response = await fetch(`http://localhost:5001/api/articles/${id}`, { method: "DELETE" });
+            const response = await fetch(`https://rbiomedsback.onrender.com/api/articles/${id}`, { method: "DELETE" });
             if (response.ok) fetchArticles();
         } catch (error) {
             console.error("Failed to delete:", error);

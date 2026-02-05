@@ -10,7 +10,7 @@ const ArticlesSection = () => {
     useEffect(() => {
         const fetchArticles = async () => {
             try {
-                const response = await fetch('http://localhost:5001/api/articles?site=rbiomeds');
+                const response = await fetch('https://rbiomedsback.onrender.com/api/articles?site=rbiomeds');
                 const data = await response.json();
                 // Get the latest 3 articles
                 setArticles(data.slice(0, 3));

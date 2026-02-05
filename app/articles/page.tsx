@@ -19,7 +19,7 @@ const ArticlesContent = () => {
     useEffect(() => {
         const fetchArticles = async () => {
             try {
-                const response = await fetch('http://localhost:5001/api/articles?site=rbiomeds');
+                const response = await fetch('https://rbiomedsback.onrender.com/api/articles?site=rbiomeds');
                 const data = await response.json();
 
                 if (data.length > 0) {
