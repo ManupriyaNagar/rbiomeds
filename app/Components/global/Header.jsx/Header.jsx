@@ -19,7 +19,6 @@ export default function Header() {
         { name: "Services", href: "/services" },
         { name: "Our Products", href: "/ourproduct" },
         { name: "Our People", href: "/ourpeople" },
-        { name: "Journal", href: "/articles" },
     ];
 
     return (
