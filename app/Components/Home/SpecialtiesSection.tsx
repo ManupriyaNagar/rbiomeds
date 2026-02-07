@@ -63,7 +63,7 @@ const SpecialtiesSection = () => {
                     <div className="hidden lg:block lg:col-span-4 lg:order-2 relative">
                         <div className="relative w-full h-full min-h-[500px] rounded-md overflow-hidden">
                             <Image
-                                src="/staff/5.png"
+                                src="/tree.png"
                                 alt="Doctor Consultation"
                                 fill
                                 className="object-cover"
