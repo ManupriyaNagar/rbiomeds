@@ -93,7 +93,7 @@ export const financeTeam = [
         name: "Daksh Rawal",
         role: "Business Development Manager",
         image: "/OurPeoples/daksh.png",
-        bio: "Before joining R-Biomeds, Daksh gained diverse global experience working with leading corporations including Presidents Choice (Canada), Nestlé (Canada), ANGI Corporation (North America), Patchel Holdings (Australia), and DKSH Healthcare (Myanmar). He has a proven track record of success in regulatory affairs, veterinary care, sales pipeline development, client relationship management, e-commerce strategy, and over-the-counter (OTC) brand building. His career reflects a blend of entrepreneurial drive and corporate discipline, enabling him to bridge international business practices with local market needs."
+        bio: "Before joining R-Biomeds, Daksh built global experience across leading organizations in Canada, North America, Australia, and Myanmar. He brings strong expertise in regulatory affairs, veterinary care, sales growth, client relationships, e-commerce strategy, and OTC brand development combining entrepreneurial agility with corporate discipline to align global practices with local market needs."
     },
     {
         name: "Ms. Cho May Thin",
