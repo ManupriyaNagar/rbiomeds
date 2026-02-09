@@ -6,17 +6,13 @@ export const leadershipTeam = [
         bio: "Rajeev, an alumnus of the Indian Institute of Kolkata, India, brings over 30 years of leadership experience in the pharmaceutical industry across India, Southeast Asia, and the Middle East. He led Dr. Reddy’s Myanmar into a top-five position with sixfold sales growth in seven years, built strong ethical and OTC brands, and later founded ABC International with a culture of innovation and excellence. He is also the Vice President of the India–Myanmar Chamber of Commerce."
     },
     {
-        name: "Dinesh Kandwal",
-        role: "Executive Director",
-        image: "/OurPeoples/2.png",
-        bio: "Dinesh has over 30 years of industry experience in companies like Dr.Reddy’s, where he worked as Director. He has rich experience spanning across value chain such as R&D, Manufacturing, Supply Chain and Sales & Marketing. He also managed company’s HR functions in India, Central Asia and Europe. He started his career in Sales & Marketing, subsequently transitioned to P&L Management and then to HR."
-    },
-    {
         name: "Jyoti Rawal",
         role: "Founding Member, Executive Director",
-        image: "/OurPeoples/3.png",
+        image: "/OurPeoples/jyoti.png",
         bio: "An educator turned corporate professional, Mrs. Rawal leverages her expertise in management and operations in performing multiple responsibilities in ABC international Myanmar including supply chain and business development. Mrs. Jyoti Rawal is also one of the key founding members of ABC International and R – Biomeds, Singapore. "
     },
+
+
     {
         name: "Ms. Tin Marlar",
         role: "Founding Member Director",
@@ -24,18 +20,25 @@ export const leadershipTeam = [
         bio: "Over two decades of experience in pharmaceutical industry with a vey versatile roles in HR, Regulatory & Logistics  in Myanmar. With her  proven track-record of combining strong industry knowledge with excellent management skills to identify and maximize business opportunities , She has played a important role in the growth trajectory of company. Prior to joining ABC, She was heading the Regulatory department of  the most admired Pharmaceutical company in Myanmar - Dr.Reddys"
     },
     {
-        name: "Akta Chopra",
-        role: "Director",
-        image: "/OurPeoples/5.png",
-        bio: "Over 2 Decades of corporate experience in brand strategy, account management, marketing and consumer health research in Singapore Akta works closely with our business associates and partners in Singapore to assess and expand R-Biomed’s representation within ASEAN region."
-
+        name: "Dinesh Kandwal",
+        role: "Executive Director",
+        image: "/OurPeoples/2.png",
+        bio: "Dinesh has over 30 years of industry experience in companies like Dr.Reddy’s, where he worked as Director. He has rich experience spanning across value chain such as R&D, Manufacturing, Supply Chain and Sales & Marketing. He also managed company’s HR functions in India, Central Asia and Europe. He started his career in Sales & Marketing, subsequently transitioned to P&L Management and then to HR."
     },
     {
         name: "Jeet Singh",
         role: "Chief Finance Officer",
         image: "/OurPeoples/8.png",
         bio: "Over 3 decades of experience in Finance Planning, Budget Control, Costing, Taxation & Auditing, MIS, Statutory Compliance. Jeet Singh has working experience in different countries like India, Africa & Myanmar. Has experience navigating high growth companies, developing new business strategies and his overall operational mindset will deliver meaningful results."
+    },
+    {
+        name: "Akta Chopra",
+        role: "Director",
+        image: "/OurPeoples/5.png",
+        bio: "Over 2 Decades of corporate experience in brand strategy, account management, marketing and consumer health research in Singapore Akta works closely with our business associates and partners in Singapore to assess and expand R-Biomed’s representation within ASEAN region."
+
     }
+
 ];
 
 export const boardMembers = [
@@ -89,7 +92,7 @@ export const financeTeam = [
     {
         name: "Daksh Rawal",
         role: "Business Development Manager",
-        image: "/OurPeoples/14.png",
+        image: "/OurPeoples/daksh.png",
         bio: "Before joining R-Biomeds, Daksh gained diverse global experience working with leading corporations including Presidents Choice (Canada), Nestlé (Canada), ANGI Corporation (North America), Patchel Holdings (Australia), and DKSH Healthcare (Myanmar). He has a proven track record of success in regulatory affairs, veterinary care, sales pipeline development, client relationship management, e-commerce strategy, and over-the-counter (OTC) brand building. His career reflects a blend of entrepreneurial drive and corporate discipline, enabling him to bridge international business practices with local market needs."
     },
     {
