@@ -6,7 +6,7 @@ import { motion, useInView, animate } from "framer-motion";
 const Counter = ({ value, suffix = "" }: { value: number; suffix?: string }) => {
     const [count, setCount] = useState(0);
     const ref = useRef(null);
-    const isInView = useInView(ref, { once: true, margin: "-100px" });
+    const isInView = useInView(ref, { once: true });
 
     useEffect(() => {
         if (isInView) {

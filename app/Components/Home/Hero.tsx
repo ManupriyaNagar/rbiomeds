@@ -7,7 +7,7 @@ import { ArrowUpRight, CheckCircle } from "lucide-react";
 
 const Hero = () => {
     return (
-        <section className="relative bg-white md:h-screen 2xl:min-h-[800px] overflow-hidden flex items-center md:pt-20 md:px-0 px-4 pt-40 ">
+        <section className="relative bg-white md:h-screen 2xl:min-h-[800px] overflow-hidden flex items-center md:pt-20 md:px-0 px-4 pt-30 ">
             {/* Subtle Grid Pattern Overlay */}
 
             <div className="container mx-auto relative z-10">
