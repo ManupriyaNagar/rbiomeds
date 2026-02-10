@@ -77,11 +77,11 @@ export default function ExploreProducts() {
                 </div>
 
                 {/* Tab Navigation - Mobile Dropdown */}
-                <div className="md:hidden mb-8 px-4">
+                <div className="md:hidden mb-8 px-8 relative">
                     <select
                         value={activeTab}
                         onChange={(e) => setActiveTab(e.target.value)}
-                        className="w-full p-3 rounded-lg border border-gray-300 bg-gradient-to-r from-red-900 to-[#ef662a] text-white focus:outline-none focus:ring-2 focus:ring-[#ef662a]"
+                        className="w-full p-3 rounded-lg border border-gray-100 bg-gradient-to-r from-red-900 to-[#ef662a] text-white focus:outline-none focus:ring-2 focus:ring-[#ef662a] appearance-none"
                     >
                         {tabs.map((tab) => (
                             <option key={tab.id} value={tab.id}>
@@ -89,6 +89,11 @@ export default function ExploreProducts() {
                             </option>
                         ))}
                     </select>
+                    <div className="absolute inset-y-0 right-12 flex items-center pointer-events-none text-white">
+                        <svg className="w-6 h-6 fill-current" viewBox="0 0 20 20">
+                            <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" fillRule="evenodd"></path>
+                        </svg>
+                    </div>
                 </div>
 
                 {/* Tab Navigation - Desktop Tabs */}

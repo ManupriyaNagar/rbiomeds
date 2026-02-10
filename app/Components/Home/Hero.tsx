@@ -53,7 +53,7 @@ const Hero = () => {
                             transition={{ duration: 0.5, delay: 0.3 }}
                             className="flex items-center gap-4"
                         >
-                            <Link href="/services" className="group bg-[#ef662a] hover:bg-white text-white hover:text-[#ef662a] px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 flex items-center gap-2 ">
+                            <Link href="/services" className="group bg-[#ef662a] hover:bg-white text-white hover:text-[#ef662a] md:px-8 px-4 md:py-4 py-2 rounded-full font-bold md:text-lg text-sm transition-all duration-300 flex items-center gap-2 ">
                                 Explore Our Services
                                 <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                             </Link>
