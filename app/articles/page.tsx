@@ -107,7 +107,7 @@ const ArticlesContent = () => {
     return (
         <main className="bg-white min-h-screen pt-30 pb-20">
             <div className="container mx-auto max-w-7xl">
-                <div className="mb-16">
+                <div className="mb-16 md:p-0 p-4">
                     <h1 className="text-4xl md:text-5xl lg:text-5xl font-medium uppercase text-black mb-6 hover:text-[#ef662a]">
                         Our Journal
                     </h1>
@@ -117,7 +117,7 @@ const ArticlesContent = () => {
                 </div>
 
                 <section className="flex flex-col lg:flex-row gap-12 mb-24">
-                    <div className="lg:w-2/3 group">
+                    <div className="lg:w-2/3 group md:p-0 p-4">
                         <div className="relative w-full h-[550px] rounded-2xl overflow-hidden mb-8">
                             <img
                                 src={currentHero.image}
@@ -169,7 +169,7 @@ const ArticlesContent = () => {
                 {journalArticles.length > 0 && (
                     <section id="journal-section" className="flex flex-col lg:flex-row gap-12 pt-20 border-t border-gray-100">
                         <div className="lg:w-2/3">
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 min-h-[600px]">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 min-h-[600px] md:p-0 p-4">
                                 {currentGridItems.map((article) => (
                                     <div
                                         key={article.id}
