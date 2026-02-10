@@ -145,7 +145,7 @@ const CalculatorContent = () => {
             <div className="container mx-auto px-6">
                 {/* Heading Section - Matches ExploreProduct */}
                 <div className="text-center mb-12 mt-10 2xl:mt-20">
-                    <h2 className="text-[3.5rem] font-bold text-gray-500 hover:text-[#ef662a] leading-tight mb-4 transition-colors">
+                    <h2 className="md:text-[3.5rem] text-2xl font-bold text-gray-500 hover:text-[#ef662a] leading-tight mb-4 transition-colors">
                         Empower Your Health With <br /> Our Professional Tools
                     </h2>
                     <p className="max-w-7xl mx-auto text-gray-500 text-lg leading-relaxed">
@@ -155,8 +155,23 @@ const CalculatorContent = () => {
                     </p>
                 </div>
 
-                {/* Tab Navigation - Matches ExploreProduct */}
-                <div className="flex justify-center mb-16 ">
+                {/* Tab Navigation - Mobile Dropdown */}
+                <div className="md:hidden mb-8 px-4">
+                    <select
+                        value={activeTab}
+                        onChange={(e) => { setActiveTab(e.target.value); reset(); }}
+                        className="w-full p-3 rounded-lg border border-gray-300 bg-gradient-to-r from-red-900 to-[#ef662a] text-white focus:outline-none focus:ring-2 focus:ring-[#ef662a]"
+                    >
+                        {tabs.map((tab) => (
+                            <option key={tab.id} value={tab.id} className="text-gray-700 bg-white">
+                                {tab.label}
+                            </option>
+                        ))}
+                    </select>
+                </div>
+
+                {/* Tab Navigation - Desktop Tabs */}
+                <div className="hidden md:flex justify-center mb-16 ">
                     <div className="inline-flex bg-gradient-to-r from-red-900 to-[#ef662a] gap-2 rounded-full p-1 border border-gray-200">
                         {tabs.map((tab) => (
                             <button

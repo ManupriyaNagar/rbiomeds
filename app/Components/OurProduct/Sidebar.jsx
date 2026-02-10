@@ -54,6 +54,7 @@ const tabTitles = {
 
 export default function Sidebar({ activeCategory }) {
     const [searchQuery, setSearchQuery] = useState('');
+    const [isMobileOpen, setIsMobileOpen] = useState(false);
 
     const filteredCategories = allCategories.filter(cat =>
         cat.title.toLowerCase().includes(searchQuery.toLowerCase())
@@ -67,12 +68,21 @@ export default function Sidebar({ activeCategory }) {
     }, {});
 
     return (
-        <div className="space-y-10 group/sidebar">
+        <div className="space-y-4 md:space-y-10 group/sidebar">
+            {/* Mobile Toggle Button */}
+            <div className="md:hidden">
+                <button
+                    onClick={() => setIsMobileOpen(!isMobileOpen)}
+                    className="w-full flex items-center justify-between px-5 py-3 bg-gradient-to-r from-red-900 to-[#ef662a] text-white rounded-xl font-bold uppercase tracking-wider shadow-md active:scale-[0.98] transition-all"
+                >
+                    <span>Filter Categories</span>
+                    <ChevronRight className={`w-5 h-5 transition-transform duration-300 ${isMobileOpen ? 'rotate-90' : ''}`} />
+                </button>
+            </div>
 
-
-            {/* Filter by Category */}
-            <div>
-                <h3 className="text-xl font-bold text-black mb-4">Filter by Category</h3>
+            {/* Filter Content Container */}
+            <div className={`${isMobileOpen ? 'block' : 'hidden'} md:block bg-white md:bg-transparent rounded-2xl md:rounded-none p-4 md:p-0 border md:border-none border-gray-100 shadow-sm md:shadow-none animate-in fade-in slide-in-from-top-2 md:animate-none`}>
+                <h3 className="hidden md:block text-xl font-bold text-black mb-4">Filter by Category</h3>
                 <div className="relative mb-6">
                     <input
                         type="text"
