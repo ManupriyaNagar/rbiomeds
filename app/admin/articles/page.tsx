@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Plus, Trash2, ArrowLeft, Image as ImageIcon, Loader2, Sparkles, LayoutGrid, Calendar, Edit2, X } from "lucide-react";
+import { Plus, Trash2, ArrowLeft, Image as ImageIcon, Loader2, Sparkles, LayoutGrid, Calendar, Edit2, X, Search } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -34,6 +34,7 @@ const AdminArticles = () => {
         category: "",
         sites: ["rbiomeds"], // Default site
     });
+    const [searchQuery, setSearchQuery] = useState("");
 
     const fetchArticles = async () => {
         try {
@@ -146,9 +147,19 @@ const AdminArticles = () => {
                         <p className="text-gray-500 font-medium">Create and manage your journal entries from this central hub.</p>
                     </div>
                     <div className="flex items-center gap-4">
-                        <div className="bg-white px-6 py-3 rounded-2xl border border-gray-100  flex items-center gap-3">
+                        <div className="relative group">
+                            <input
+                                type="text"
+                                placeholder="Search articles..."
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
+                                className="bg-white px-6 py-3 pl-12 rounded-2xl border border-gray-100 focus:border-[#ef662e]/20 outline-none text-xs font-bold transition-all w-64"
+                            />
+                            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+                        </div>
+                        <div className="bg-white px-6 py-3 rounded-2xl border border-gray-100 flex items-center gap-3">
                             <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
-                            <span className="text-xs font-black text-gray-900 uppercase tracking-widest">{articles.length} Total Entries</span>
+                            <span className="text-xs font-black text-gray-900 uppercase tracking-widest">{articles.length} Total</span>
                         </div>
                     </div>
                 </div>
@@ -319,15 +330,15 @@ const AdminArticles = () => {
                             <h2 className="text-xl font-black text-gray-900 uppercase tracking-tighter flex items-center gap-2">
                                 <LayoutGrid className="w-5 h-5 text-gray-400" />
                                 Live Entries
+                                {searchQuery && (
+                                    <span className="text-[10px] font-bold text-[#ef662e] bg-[#ef662e]/5 px-2 py-0.5 rounded-full">
+                                        Filtered
+                                    </span>
+                                )}
                             </h2>
-                            <div className="flex gap-2">
-                                <div className="p-2 bg-white rounded-lg border border-gray-100 text-gray-400">
-                                    <LayoutGrid className="w-4 h-4" />
-                                </div>
-                            </div>
                         </div>
 
-                        <div className="space-y-6">
+                        <div className="space-y-6 lg:max-h-[calc(100vh-250px)] lg:overflow-y-auto lg:pr-4 custom-scrollbar-minimal">
                             {loading ? (
                                 <div className="flex flex-col items-center justify-center py-32 bg-white rounded-[2.5rem] border border-gray-100">
                                     <Loader2 className="w-12 h-12 text-[#ef662e] animate-spin mb-4" />
@@ -342,80 +353,85 @@ const AdminArticles = () => {
                                     <p className="text-gray-400 font-medium">Start by creating your first journal entry on the left.</p>
                                 </div>
                             ) : (
-                                <div className="grid grid-cols-1 gap-6">
-                                    {articles.map((article, index) => (
-                                        <div
-                                            key={article.id}
-                                            className="bg-white p-6 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-8 group hover:border-[#ef662e]/10 transition-all duration-500"
-                                        >
-                                            <div className="relative w-full md:w-40 h-40 rounded-[2rem] overflow-hidden flex-shrink-0 bg-gray-100">
-                                                {article.image ? (
-                                                    <img src={article.image} alt={article.title} className="object-cover transition-transform duration-700 group-hover:scale-110" />
-                                                ) : (
-                                                    <div className="w-full h-full flex items-center justify-center text-gray-300">
-                                                        <ImageIcon className="w-10 h-10" />
-                                                    </div>
-                                                )}
-                                                <div className="absolute top-4 left-4 px-3 py-1 bg-black/50 backdrop-blur-md text-white text-[8px] font-black uppercase tracking-widest rounded-full z-10">
-                                                    Slot {index + 1}
-                                                </div>
-                                            </div>
-
-                                            <div className="flex-1 w-full">
-                                                <div className="flex items-center gap-4 mb-3">
-                                                    <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[#ef662e] bg-[#ef662e]/5 px-3 py-1 rounded-full border border-[#ef662e]/10">
-                                                        {article.category}
-                                                    </span>
-                                                    <div className="flex items-center gap-1.5 text-gray-400">
-                                                        <Calendar className="w-3 h-3" />
-                                                        <span className="text-[10px] font-bold uppercase tracking-wider">{article.date}</span>
-                                                    </div>
-                                                    <div className="flex gap-2">
-                                                        {article.sites?.map(site => (
-                                                            <span key={site} className="text-[8px] font-black uppercase tracking-widest bg-gray-900 text-white px-2 py-0.5 rounded">
-                                                                {site === 'rbiomeds' ? 'Rbiomeds' : 'ABC Intl'}
-                                                            </span>
-                                                        ))}
+                                <div className="grid grid-cols-1 gap-6 pb-4">
+                                    {articles
+                                        .filter(article =>
+                                            article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                                            article.category.toLowerCase().includes(searchQuery.toLowerCase())
+                                        )
+                                        .map((article, index) => (
+                                            <div
+                                                key={article.id}
+                                                className="bg-white p-6 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-8 group hover:border-[#ef662e]/10 transition-all duration-500"
+                                            >
+                                                <div className="relative w-full md:w-40 h-40 rounded-[2rem] overflow-hidden flex-shrink-0 bg-gray-100">
+                                                    {article.image ? (
+                                                        <img src={article.image} alt={article.title} className="object-cover transition-transform duration-700 group-hover:scale-110" />
+                                                    ) : (
+                                                        <div className="w-full h-full flex items-center justify-center text-gray-300">
+                                                            <ImageIcon className="w-10 h-10" />
+                                                        </div>
+                                                    )}
+                                                    <div className="absolute top-4 left-4 px-3 py-1 bg-black/50 backdrop-blur-md text-white text-[8px] font-black uppercase tracking-widest rounded-full z-10">
+                                                        Slot {index + 1}
                                                     </div>
                                                 </div>
-                                                <h3 className="text-2xl font-black text-gray-900 uppercase tracking-tighter leading-tight mb-3 group-hover:text-[#ef662e] transition-colors">
-                                                    {article.title}
-                                                </h3>
-                                                <p className="text-gray-500 text-sm font-medium line-clamp-2 leading-relaxed mb-6">
-                                                    {article.description}
-                                                </p>
 
-                                                <div className="flex items-center justify-between pt-6 border-t border-gray-50">
-                                                    <div className="flex items-center gap-4">
-                                                        <div className="flex -space-x-2">
-                                                            {[1, 2, 3].map((_, i) => (
-                                                                <div key={i} className="w-6 h-6 rounded-full border-2 border-white bg-gray-100 overflow-hidden">
-                                                                    <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300" />
-                                                                </div>
+                                                <div className="flex-1 w-full">
+                                                    <div className="flex items-center gap-4 mb-3">
+                                                        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[#ef662e] bg-[#ef662e]/5 px-3 py-1 rounded-full border border-[#ef662e]/10">
+                                                            {article.category}
+                                                        </span>
+                                                        <div className="flex items-center gap-1.5 text-gray-400">
+                                                            <Calendar className="w-3 h-3" />
+                                                            <span className="text-[10px] font-bold uppercase tracking-wider">{article.date}</span>
+                                                        </div>
+                                                        <div className="flex gap-2">
+                                                            {article.sites?.map(site => (
+                                                                <span key={site} className="text-[8px] font-black uppercase tracking-widest bg-gray-900 text-white px-2 py-0.5 rounded">
+                                                                    {site === 'rbiomeds' ? 'Rbiomeds' : 'ABC Intl'}
+                                                                </span>
                                                             ))}
                                                         </div>
-                                                        <span className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Active Draft</span>
                                                     </div>
-                                                    <div className="flex items-center gap-2">
-                                                        <button
-                                                            onClick={() => handleEdit(article)}
-                                                            className="p-3 text-gray-300 hover:text-blue-500 hover:bg-blue-50 rounded-2xl transition-all"
-                                                            title="Edit Entry"
-                                                        >
-                                                            <Edit2 className="w-5 h-5" />
-                                                        </button>
-                                                        <button
-                                                            onClick={() => handleDelete(article.id)}
-                                                            className="p-3 text-gray-300 hover:text-red-500 hover:bg-red-50 rounded-2xl transition-all"
-                                                            title="Delete Entry"
-                                                        >
-                                                            <Trash2 className="w-5 h-5" />
-                                                        </button>
+                                                    <h3 className="text-2xl font-black text-gray-900 uppercase tracking-tighter leading-tight mb-3 group-hover:text-[#ef662e] transition-colors">
+                                                        {article.title}
+                                                    </h3>
+                                                    <p className="text-gray-500 text-sm font-medium line-clamp-2 leading-relaxed mb-6">
+                                                        {article.description}
+                                                    </p>
+
+                                                    <div className="flex items-center justify-between pt-6 border-t border-gray-50">
+                                                        <div className="flex items-center gap-4">
+                                                            <div className="flex -space-x-2">
+                                                                {[1, 2, 3].map((_, i) => (
+                                                                    <div key={i} className="w-6 h-6 rounded-full border-2 border-white bg-gray-100 overflow-hidden">
+                                                                        <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300" />
+                                                                    </div>
+                                                                ))}
+                                                            </div>
+                                                            <span className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Active Draft</span>
+                                                        </div>
+                                                        <div className="flex items-center gap-2">
+                                                            <button
+                                                                onClick={() => handleEdit(article)}
+                                                                className="p-3 text-gray-300 hover:text-blue-500 hover:bg-blue-50 rounded-2xl transition-all"
+                                                                title="Edit Entry"
+                                                            >
+                                                                <Edit2 className="w-5 h-5" />
+                                                            </button>
+                                                            <button
+                                                                onClick={() => handleDelete(article.id)}
+                                                                className="p-3 text-gray-300 hover:text-red-500 hover:bg-red-50 rounded-2xl transition-all"
+                                                                title="Delete Entry"
+                                                            >
+                                                                <Trash2 className="w-5 h-5" />
+                                                            </button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    ))}
+                                        ))}
                                 </div>
                             )}
                         </div>
