@@ -241,7 +241,7 @@ const ArticlesContent = () => {
                             <div className="sticky top-24">
                                 {currentJournalFeatured && (
                                     <>
-                                        <div className="relative w-full h-[450px] rounded-2xl overflow-hidden mb-8 border-2 border-[#ef662e]/10">
+                                        <div className="relative w-full h-full rounded-2xl overflow-hidden mb-8 border-2 border-[#ef662e]/10">
                                             <img
                                                 src={currentJournalFeatured.image}
                                                 alt={currentJournalFeatured.title}
