@@ -45,17 +45,31 @@ const WelcomeSection = () => {
                                 viewport={{ once: true }}
                                 className="bg-white rounded-2xl p-8 md:p-10 border border-gray-100 shadow-sm"
                             >
-                                <div className="space-y-6 text-gray-700 text-base md:text-lg leading-relaxed">
+                                <div className="space-y-6 text-gray-700 text-base md:text-md leading-relaxed">
                                     <p className="">
-                                        R-Biomeds, Singapore, is an emerging healthcare company with a vision to lead the healthcare market and build trust in the world of pharmaceuticals. The company was incorporated in the year 2016 with the goal to support varied verticals in the medical field to build reputable brands across South Asia.
+                                      <span className="font-semibold">R-Biomeds</span>, headquartered in Singapore, is a fast-growing healthcare organization with a clear
+vision to build trust, advance access, and lead innovation in the pharmaceutical and healthcare
+space. Incorporated in 2016, the company was founded with the objective of supporting
+multiple healthcare verticals and developing reputable, high-quality brands across Asia.
+
                                     </p>
 
                                     <p>
-                                        R-Biomeds, is a strategic planner, experienced executor, regulatory advisor and marketer of healthcare products. We are committed to assist pharmaceutical companies in becoming competitive and successful in today’s fast growing market. Our strategy is to work hard to evaluate the most important issues and the best opportunities that can elevate our client’s growth graph.
+                                        R-Biomeds operates as a strategic planner, experienced executor, regulatory advisor, and marketer of healthcare products. We partner closely with pharmaceutical and FMCG healthcare
+companies to help them successfully enter, scale, and compete in rapidly evolving markets. Our
+approach is rooted in identifying critical market challenges and unlocking high-impact
+opportunities that accelerate sustainable growth for our partners.
+
                                     </p>
 
                                     <p>
-                                        Our deep insight and holistic approach beyond the political boundaries has helped us to build our presence in Myanmar & Singapore. With a vision to be a trusted healthcare organization of repute, admired by its stakeholders for being customer centric, driven by values, yet adhering to corporate governance, we take pride for being committed to CSR & employee recognition.
+                                        With deep regional insight and a holistic, cross-border perspective, R-Biomeds has rapidly
+expanded its footprint across key Asian markets including <span className="font-semibold">Myanmar, Cambodia, Laos, Nepal,
+and Singapore</span>, with continued momentum across the region. Guided by a long-term vision to
+become a trusted and respected healthcare organization, we remain customer-centric, values-
+driven, and firmly aligned with strong corporate governance. We take pride in our commitment
+to corporate social responsibility, ethical growth, and the continuous development and
+recognition of our people.
                                     </p>
                                 </div>
                             </motion.div>

@@ -62,15 +62,15 @@ const Showcasing = () => {
                             <div className="-mt-12 px-6 relative z-10 w-full">
                                 <motion.div
                                     layout
-                                    className="bg-[#F8F8F8]/95 backdrop-blur-sm rounded-2xl p-6 lg:p-8 w-full"
+                                    className="bg-[#ef622a]/90 backdrop-blur-sm rounded-2xl p-6 lg:p-4 w-full text-white"
                                     initial={false}
                                     transition={{ duration: 0.4, ease: [0.23, 1, 0.32, 1] }}
                                 >
                                     <div className="flex items-center justify-between">
-                                        <h3 className="text-xl lg:text-2xl font-bold text-gray-900 leading-tight">
+                                        <h3 className="text-xl lg:text-2xl font-bold text-gray-100 leading-tight">
                                             {card.title}
                                         </h3>
-                                        <div className="bg-black  group-hover:bg-[#ef662a] text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:rotate-45">
+                                        <div className="bg-gray-200  group-hover:bg-[#ffffff] text-black w-10 h-10 lg:w-12 lg:h-12 rounded-full flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:rotate-45">
                                             <ArrowUpRight className="w-5 h-5 lg:w-6 lg:h-6" />
                                         </div>
                                     </div>
@@ -84,7 +84,7 @@ const Showcasing = () => {
                                                 transition={{ duration: 0.3, ease: "easeOut" }}
                                                 className="overflow-hidden mt-4"
                                             >
-                                                <p className="text-gray-600 text-sm lg:text-base leading-relaxed font-medium">
+                                                <p className="text-gray-200 text-sm lg:text-base leading-relaxed font-medium">
                                                     {card.description}
                                                 </p>
                                             </motion.div>

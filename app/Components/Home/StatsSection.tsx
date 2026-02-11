@@ -49,7 +49,7 @@ const StatsSection = () => {
                                 <img
                                     src="/staff/s1.png"
                                     alt="Staff"
-                                    className="object-contain md:scale-125 md:translate-y-5"
+                                    className="object-cover md:translate-y-5"
                                 />
                             </div>
                         </div>
@@ -86,7 +86,7 @@ const StatsSection = () => {
                         <div className="bg-white rounded-3xl p-5 sm:p-6 min-h-auto md:min-h-[520px] flex flex-col justify-between overflow-hidden">
                             <div className="w-full h-[220px] sm:h-[280px] md:h-[350px] 2xl:h-[370px] relative">
                                 <Image
-                                    src="/staff/3.png"
+                                    src="/staff/s3.png"
                                     alt="Doctors Network"
                                     fill
                                     className="object-cover 2xl:object-contain 2xl:scale-120"

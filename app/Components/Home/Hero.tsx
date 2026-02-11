@@ -110,7 +110,7 @@ const Hero = () => {
 
                             <div className="absolute bottom-6 right-6 flex flex-wrap justify-end gap-2 max-w-[85%]">
                                 {['Marketing', 'Distribution', 'Importation', 'Regulatory', 'Trademark Registration', 'Healthcare Consultancy'].map((tag) => (
-                                    <span key={tag} className="px-3 py-1.5 bg-black/50 backdrop-blur-md border border-white/10 rounded-full text-white text-[10px] uppercase tracking-wider font-bold hover:bg-[#ef662a] hover:text-white transition-all cursor-default whitespace-nowrap">
+                                    <span key={tag} className="px-3 py-1.5 bg-white/90 backdrop-blur-md border border-white/10 rounded-full text-black text-[10px] uppercase tracking-wider font-bold hover:bg-[#ef662a] hover:text-white transition-all cursor-default whitespace-nowrap">
                                         {tag}
                                     </span>
                                 ))}

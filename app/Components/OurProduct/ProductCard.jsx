@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 export default function ProductCard({ product }) {
     return (
-        <div className="group bg-[#f0f9ff]/50  rounded-3xl p-6 transition-all duration-300 border-2 border-transparent hover:border-[#ea9237]/20 cursor-pointer">
+        <div className="group   rounded-3xl p-6 transition-all duration-300 border-2 border-[#ea9237]/20 cursor-pointer">
             <div className="relative aspect-square mb-6 rounded-2xl overflow-hidden  flex items-center justify-center">
-                <div className="relative w-full h-full">
+                <div className="relative w-full h-full bg-[#ef662a]/10">
                     <Image
                         src={product.image}
                         alt={product.title}
@@ -24,7 +24,7 @@ export default function ProductCard({ product }) {
                 {product.title}
             </h3>
 
-            <p className="text-gray-500 leading-relaxed line-clamp-2">
+            <p className="text-gray-800 leading-relaxed line-clamp-2">
                 {product.description}
             </p>
         </div>

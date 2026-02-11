@@ -48,12 +48,12 @@ export default function OurEcoSystem() {
                         {leftCards.map((card, index) => (
                             <div
                                 key={index}
-                                className="bg-white border border-gray-200 hover:border-white hover:bg-gradient-to-br hover:from-white hover:to-[#ef662e] rounded-2xl p-6 group"
+                                className="bg-white border border-gray-200 hover:border-white hover:bg-gradient-to-br hover:from-white group-hover:to-[#ef662e] rounded-2xl p-6 group"
                             >
                                 <div className="flex items-start gap-4">
 
                                     <div>
-                                        <h3 className="text-2xl font-bold text-black mb-2  transition-colors">
+                                        <h3 className="text-2xl font-bold text-black mb-2 group-hover:to-[#ef662e]  transition-colors">
                                             {card.title}
                                         </h3>
                                         <p className="text-gray-600 text-sm leading-relaxed">
