@@ -32,6 +32,7 @@ const AdminArticles = () => {
         description: "",
         image: "",
         category: "",
+        date: new Date().toISOString().split('T')[0],
         sites: ["rbiomeds"], // Default site
     });
     const [searchQuery, setSearchQuery] = useState("");
@@ -92,13 +93,14 @@ const AdminArticles = () => {
                 : `${API_BASE}/api/articles`;
             const method = editingId ? "PUT" : "POST";
 
+            console.log("Submitting article with data:", formData);
             const response = await fetch(url, {
                 method: method,
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData),
             });
             if (response.ok) {
-                setFormData({ title: "", description: "", image: "", category: "", sites: ["rbiomeds"] });
+                setFormData({ title: "", description: "", image: "", category: "", date: new Date().toISOString().split('T')[0], sites: ["rbiomeds"] });
                 setEditingId(null);
                 fetchArticles();
             }
@@ -110,11 +112,25 @@ const AdminArticles = () => {
     };
 
     const handleEdit = (article: Article) => {
+        // Convert display date format back to YYYY-MM-DD for the date input
+        let formattedDate = new Date().toISOString().split('T')[0];
+        if (article.date) {
+            try {
+                const d = new Date(article.date);
+                if (!isNaN(d.getTime())) {
+                    formattedDate = d.toISOString().split('T')[0];
+                }
+            } catch (e) {
+                console.error("Error parsing date:", e);
+            }
+        }
+
         setFormData({
             title: article.title,
             description: article.description,
             image: article.image || "",
             category: article.category || "",
+            date: formattedDate,
             sites: article.sites || ["rbiomeds"],
         });
         setEditingId(article.id);
@@ -180,7 +196,7 @@ const AdminArticles = () => {
                                     <button
                                         onClick={() => {
                                             setEditingId(null);
-                                            setFormData({ title: "", description: "", image: "", category: "", sites: ["rbiomeds"] });
+                                            setFormData({ title: "", description: "", image: "", category: "", date: new Date().toISOString().split('T')[0], sites: ["rbiomeds"] });
                                         }}
                                         className="text-gray-400 hover:text-red-500 transition-colors"
                                     >
@@ -211,6 +227,17 @@ const AdminArticles = () => {
                                         onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                                         className="w-full text-black bg-gray-50 border-2 border-transparent focus:border-[#ef662e]/20 focus:bg-white rounded-2xl p-4 text-sm font-medium transition-all outline-none"
                                         placeholder="e.g. Innovation"
+                                    />
+                                </div>
+
+                                <div className="space-y-2">
+                                    <label className="block text-[10px] font-black uppercase tracking-widest text-gray-400 px-1">Date</label>
+                                    <input
+                                        required
+                                        type="date"
+                                        value={formData.date}
+                                        onChange={(e) => setFormData({ ...formData, date: e.target.value })}
+                                        className="w-full text-black bg-gray-50 border-2 border-transparent focus:border-[#ef662e]/20 focus:bg-white rounded-2xl p-4 text-sm font-medium transition-all outline-none"
                                     />
                                 </div>
 

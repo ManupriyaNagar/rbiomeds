@@ -6,6 +6,12 @@ import { ArrowRight } from "lucide-react";
 
 // Initial data moved to lib/data/articles.json via backend API
 
+const API_BASE = typeof window !== 'undefined' && (
+    window.location.hostname === 'localhost' ||
+    window.location.hostname === '127.0.0.1' ||
+    window.location.hostname.startsWith('192.168.')
+) ? `http://${window.location.hostname}:5001` : 'https://rbiomedsback.onrender.com';
+
 const ArticlesContent = () => {
     const searchParams = useSearchParams();
     const [heroArticles, setHeroArticles] = useState<any[]>([]);
@@ -19,7 +25,7 @@ const ArticlesContent = () => {
     useEffect(() => {
         const fetchArticles = async () => {
             try {
-                const response = await fetch('https://rbiomedsback.onrender.com/api/articles?site=rbiomeds');
+                const response = await fetch(`${API_BASE}/api/articles?site=rbiomeds`);
                 const data = await response.json();
 
                 if (data.length > 0) {

@@ -3,6 +3,12 @@ import React, { useState, useEffect } from "react";
 import ArticleCard from "./ArticleCard";
 import { Loader2 } from "lucide-react";
 
+const API_BASE = typeof window !== 'undefined' && (
+    window.location.hostname === 'localhost' ||
+    window.location.hostname === '127.0.0.1' ||
+    window.location.hostname.startsWith('192.168.')
+) ? `http://${window.location.hostname}:5001` : 'https://rbiomedsback.onrender.com';
+
 const ArticlesSection = () => {
     const [articles, setArticles] = useState<any[]>([]);
     const [loading, setLoading] = useState(true);
@@ -10,7 +16,7 @@ const ArticlesSection = () => {
     useEffect(() => {
         const fetchArticles = async () => {
             try {
-                const response = await fetch('https://rbiomedsback.onrender.com/api/articles?site=rbiomeds');
+                const response = await fetch(`${API_BASE}/api/articles?site=rbiomeds`);
                 const data = await response.json();
                 // Get the latest 3 articles
                 setArticles(data.slice(0, 3));
@@ -27,7 +33,7 @@ const ArticlesSection = () => {
     return (
         <section className="bg-white py-20">
             <div className="container mx-auto px-6">
-                <h1 className="text-4xl md:text-5xl lg:text-5xl font-medium uppercase text-black hover:text-[#ef662a] text-center mb-16 tracking-tighter font-black">Latest <span className="text-[#ef662e]">Insights</span></h1>
+                <h1 className="text-4xl md:text-5xl lg:text-5xl font-medium uppercase text-black hover:text-[#ef662a] text-center mb-16 tracking-tighter font-black">Latest Insights</h1>
 
                 {loading ? (
                     <div className="flex justify-center py-20">
