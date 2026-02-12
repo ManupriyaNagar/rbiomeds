@@ -33,7 +33,7 @@ const ArticlesSection = () => {
     return (
         <section className="bg-white py-20">
             <div className="container mx-auto px-6">
-                <h1 className="text-4xl md:text-5xl lg:text-5xl font-medium uppercase text-black hover:text-[#ef662a] text-center mb-16 tracking-tighter font-black">Latest Insights</h1>
+                <h1 className="text-4xl md:text-5xl lg:text-5xl font-medium uppercase text-black hover:text-[#ef662a] text-center mb-16 tracking-tighter"> Latest Insights</h1>
 
                 {loading ? (
                     <div className="flex justify-center py-20">
