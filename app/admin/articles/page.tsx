@@ -113,12 +113,18 @@ const AdminArticles = () => {
 
     const handleEdit = (article: Article) => {
         // Convert display date format back to YYYY-MM-DD for the date input
+        // article.date is likely "Month DD, YYYY" from the backend toJSON
         let formattedDate = new Date().toISOString().split('T')[0];
+
         if (article.date) {
             try {
                 const d = new Date(article.date);
                 if (!isNaN(d.getTime())) {
-                    formattedDate = d.toISOString().split('T')[0];
+                    // Use local date components to avoid timezone shifts
+                    const year = d.getFullYear();
+                    const month = String(d.getMonth() + 1).padStart(2, '0');
+                    const day = String(d.getDate()).padStart(2, '0');
+                    formattedDate = `${year}-${month}-${day}`;
                 }
             } catch (e) {
                 console.error("Error parsing date:", e);
