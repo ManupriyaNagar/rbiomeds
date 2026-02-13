@@ -181,7 +181,7 @@ const Footer = () => {
                     <h3 className="text-white text-2xl sm:text-3xl md:text-[1.5rem] 2xl:text-[1.8rem] font-bold text-center md:text-left leading-tight">  Get in touch with Rbiomeds for business, partnership, or healthcare inquiries.
                     </h3>
                     <button className="md:mt-0 mt-4 bg-white text-black px-8 py-2 rounded-2xl font-extrabold text-lg transition-all transform hover:scale-105 active:scale-95 shadow-2xl">
-                        Call Us Now
+                        Message Us now
                     </button>
                 </div>
 

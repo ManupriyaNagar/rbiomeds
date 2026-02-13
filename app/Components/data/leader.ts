@@ -25,12 +25,7 @@ export const leadershipTeam = [
         image: "/OurPeoples/2.png",
         bio: "Dinesh has over 30 years of industry experience in companies like Dr.Reddy’s, where he worked as Director. He has rich experience spanning across value chain such as R&D, Manufacturing, Supply Chain and Sales & Marketing. He also managed company’s HR functions in India, Central Asia and Europe. He started his career in Sales & Marketing, subsequently transitioned to P&L Management and then to HR."
     },
-    {
-        name: "Jeet Singh",
-        role: "Chief Finance Officer",
-        image: "/OurPeoples/8.png",
-        bio: "Over 3 decades of experience in Finance Planning, Budget Control, Costing, Taxation & Auditing, MIS, Statutory Compliance. Jeet Singh has working experience in different countries like India, Africa & Myanmar. Has experience navigating high growth companies, developing new business strategies and his overall operational mindset will deliver meaningful results."
-    },
+
     {
         name: "Akta Chopra",
         role: "Director",
@@ -58,6 +53,12 @@ export const boardMembers = [
 ];
 
 export const financeTeam = [
+    {
+        name: "Jeet Singh",
+        role: "Chief Finance Officer",
+        image: "/OurPeoples/8.png",
+        bio: "Over 3 decades of experience in Finance Planning, Budget Control, Costing, Taxation & Auditing, MIS, Statutory Compliance. Jeet Singh has working experience in different countries like India, Africa & Myanmar. Has experience navigating high growth companies, developing new business strategies and his overall operational mindset will deliver meaningful results."
+    },
     {
         name: "Dilip Rathod",
         role: "Country Head , Myanmar",
