@@ -6,13 +6,14 @@ export default function ImageGallery() {
     const [hoveredIndex, setHoveredIndex] = useState(0);
 
     const images = [
-        {
-            src: '/staff/9.png',
-            title: 'Social Responsibility',
-            description: 'R-Biomeds Singapore donated essential medicines to Cambodia’s border-affected communities in partnership with Pharmacie De La Gare and Ke Sinoun Hospital, Battambang.'
+         {
+            src: '/first.png',
+            title: 'Great Place to Work Certified',
+            description: 'We’re thrilled to announce that R-Biomeds has been certified as a Great Place to Work for 2025, making us only the second pharmaceutical company to receive this honor.'
         },
+       
         {
-            src: '/u2.png',
+            src: '/top10.png',
             title: 'Asia Business Outlook',
             description: 'An Emerging Firm With A Vision To Lead The Market & Build A Name In The World Of Medicine.'
         },
@@ -31,11 +32,12 @@ export default function ImageGallery() {
             title: 'ABC Derma Care',
             description: 'Luzo Club Meet at PyiNOoLwin - Engaging Dermatologist from Mandalay & TaungGyi'
         },
-        {
-            src: '/foots/3.png',
-            title: 'Great Place to Work Certified',
-            description: 'We’re thrilled to announce that R-Biomeds has been certified as a Great Place to Work for 2025, making us only the second pharmaceutical company in Myanmar to receive this honor.'
-        }
+         {
+            src: '/staff/9.png',
+            title: 'Social Responsibility',
+            description: 'R-Biomeds Singapore donated essential medicines to Cambodia’s border-affected communities in partnership with Pharmacie De La Gare and Ke Sinoun Hospital, Battambang.'
+        },
+       
     ];
 
     return (

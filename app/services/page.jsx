@@ -11,7 +11,7 @@ export default function Services() {
                     </h1>
                     <p className="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto">
                         Comprehensive pharmaceutical solutions tailored to meet global standards
-                        and local market needs in Myanmar.
+                        and local market needs in Asia.
                     </p>
                 </div>
             </div>

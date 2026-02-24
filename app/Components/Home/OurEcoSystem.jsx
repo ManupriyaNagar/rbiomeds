@@ -69,7 +69,7 @@ export default function OurEcoSystem() {
                     <div className="flex items-center justify-center">
                         <div className="relative w-full max-w-md">
                             <img
-                                src="/Rbiomedsfavicon.svg"
+                                src=""
                                 alt="ABC International"
                                 className="w-full h-auto rounded-3xl"
                             />

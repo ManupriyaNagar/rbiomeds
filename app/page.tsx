@@ -14,7 +14,6 @@ export default function Home() {
     <>
       <Hero />
       <WelcomeSection />
-      {/* <StatsSection /> */}
       <Showcasing />
       <OurBusinesses />
       <SpecialtiesSection />

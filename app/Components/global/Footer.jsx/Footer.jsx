@@ -178,7 +178,7 @@ const Footer = () => {
 
                 {/* Lime Green Banner */}
                 <div className="bg-[#ef662e] text-black rounded-[1.5rem] p-6 sm:p-8 flex flex-col md:flex-row justify-between items-center transition-all hover:shadow-2xl hover:shadow-orange-100 mt-16">
-                    <h3 className="text-white text-2xl sm:text-3xl md:text-[1.5rem] 2xl:text-[1.8rem] font-bold text-center md:text-left leading-tight">  Get in touch with Rbiomeds for business, partnership, or healthcare inquiries.
+                    <h3 className="text-white text-2xl sm:text-3xl md:text-[1.5rem] 2xl:text-[1.8rem] font-bold text-center md:text-left leading-tight">  Get in touch with R-Biomeds for business, partnership, or healthcare inquiries.
                     </h3>
                     <button className="md:mt-0 mt-4 bg-white text-black px-8 py-2 rounded-2xl font-extrabold text-lg transition-all transform hover:scale-105 active:scale-95 shadow-2xl">
                         Message Us now
@@ -187,7 +187,7 @@ const Footer = () => {
 
                 {/* Bottom Bar */}
                 <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 md:text-sm text-xs font-medium mt-12">
-                    <p>© Copyright 2026 - Rbiomeds All Rights Reserved Copyright. | <a href="/admin" className="hover:text-[#ef662e] transition-colors">Admin Portal</a></p>
+                    <p>© Copyright 2026 - R-Biomeds All Rights Reserved Copyright. | <a href="/admin" className="hover:text-[#ef662e] transition-colors">Admin Portal</a></p>
                     <div className="flex gap-8 mt-4 md:mt-0">
                         <a href="https://rbshstudio.com" target="_blank" className="transition-colors">Powered By <span className="text-[#ff5400] font-bold">RBSH Studio</span> </a>
                     </div>

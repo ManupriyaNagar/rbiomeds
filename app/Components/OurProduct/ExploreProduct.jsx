@@ -71,7 +71,7 @@ export default function ExploreProducts() {
                         Quality Healthcare Products For Every Need
                     </h2>
                     <p className="max-w-7xl mx-auto text-gray-500 text-base md:text-lg leading-relaxed">
-                        At ABC International, we are dedicated to developing, manufacturing, sourcing and delivering only the highest quality pharmaceutical products along with renowned partners across the globe.
+                        At R-Biomeds, we are dedicated to developing, manufacturing, sourcing and delivering only the highest quality pharmaceutical products along with renowned partners across the globe.
                         We understand that in healthcare, excellence is non-negotiable. That's why we have established partnerships with industry leaders who share our commitment to uncompromising quality and patient well-being.
                     </p>
                 </div>

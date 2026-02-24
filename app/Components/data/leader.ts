@@ -74,7 +74,7 @@ export const financeTeam = [
     {
         name: "Pritish Ghosh",
         role: "Business Head",
-        image: "/OurPeoples/10.png",
+        image: "/pratish.png",
         bio: "Pharmaceutical Career of over 20 Years Leadership role with Zydus & Azkka Pharmaceuticals Worked with  esteemed Organizations over 20 years of professional tenure – Panacea Biotech, Zydus , Azkka Pharmaceuticals Building Olmesartan Brand (Olmy )to gain No 1 Position in MAT Nurturing No1 Brand of Metolazone & Maintaining the Position Launching New Organization – Recruitment, Building whole team for a state, Distribution, Networking, and making State Highest Contributing Zone of the Country."
     },
 

@@ -19,7 +19,7 @@ const WelcomeSection = () => {
                             className="lg:col-span-5 relative h-[400px] md:h-[400px] lg:h-[700px] rounded-2xl overflow-hidden "
                         >
                             <img
-                                src="/staff/10.png" // Using an existing large image as placeholder, user can replace
+                                src="/welcome.png" // Using an existing large image as placeholder, user can replace
                                 alt="R-Biomeds HQ"
                                 className="object-cover"
                             />

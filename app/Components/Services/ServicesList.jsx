@@ -24,7 +24,7 @@ const services = [
     {
         title: "Regulatory",
         description:
-            "FDA requires to register every pharmaceutical and Healthcare products before it is imported in Myanmar. R-Biomeds manages the complete regulatory cycle on behalf of its customers.",
+            "FDA requires to register every pharmaceutical and Healthcare products before it is imported in Asia. R-Biomeds manages the complete regulatory cycle on behalf of its customers.",
         logo: "/service/4.png",
     },
     {

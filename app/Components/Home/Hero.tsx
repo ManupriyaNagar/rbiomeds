@@ -110,7 +110,7 @@ const Hero = () => {
                             className="col-span-2 relative bg-white rounded-3xl overflow-hidden aspect-[8/6] group border border-white/10 "
                         >
                             <img
-                                src="/staff/6.png"
+                                src="/science.png"
                                 alt="Doctor Consultation"
                                 className="object-cover group-hover:scale-105 transition-transform duration-1000 "
                             />

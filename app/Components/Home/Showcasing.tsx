@@ -11,19 +11,19 @@ const Showcasing = () => {
             id: 1,
             title: "Environmental",
             description: "R-Biomeds recognizes environmental protection as one of our guiding principles and a key component of sound business performance. We will operate in compliance with all relevant legislations on environment and we will strive to adopt the best environmental practices in the area of our business operations. To fulfill this commitment, we abide by a set of carefully crafted principles and guidelines.",
-            image: "/policy/1.png"
+            image: "/policies/1.png"
         },
         {
             id: 2,
             title: "Sustainability",
             description: "The company considers sustainability as very important foundation of its business performance and is committed to the cause of promoting sustainability. Strengthening sustainability while developing business, is at the core of leadership focus. The company aims to follow and to promote good sustainability practices and to reduce adverse environmental impact of its activities by following well thought-out guidelines.",
-            image: "/policy/2.png"
+            image: "/policies/2.png"
         },
         {
             id: 3,
             title: "Corporate Social Responsibility",
             description: "The objective of our CSR policy is to ensure an enhanced level of commitment at all levels in the organization, to operate its business in an economically, socially & environmentally sustainable manner, while recognizing the interests of its stakeholders. This policy guides the company to support those at the lower end of the pyramid through various activities such as patient support programmes, support homeless children, etc.",
-            image: "/policy/3.png"
+            image: "/policies/3.png"
         }
     ];
 

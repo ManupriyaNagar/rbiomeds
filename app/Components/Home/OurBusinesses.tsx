@@ -20,7 +20,7 @@ const OurBusinesses = () => {
             title: "Natural",
             subTitle: "We Care",
             logo: "/logob.png",
-            description: "Science-led pet nutrition and FDA-grade medicines , quietly affordable",
+            description: "Science-led pet nutrition and FDA-grade medicines, quietly affordable",
             bgColor: "#9444A1",
             textColor: "text-green-900",
             accent: "text-green-700",
