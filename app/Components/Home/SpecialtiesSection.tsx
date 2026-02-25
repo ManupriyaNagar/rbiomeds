@@ -13,13 +13,13 @@ const SpecialtiesSection = () => {
                     {/* LEFT COLUMN */}
                     <div className="lg:col-span-4 flex flex-col gap-6 order-1 lg:order-1">
                         <motion.div
-                            initial={{ x: 120, opacity: 0 }}
+                            initial={{ x: -120, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.8, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
+                            className="group bg-[#F8F9FA] 2xl:bg-gray-200 rounded-md p-10 2xl:p-10"
                         >
-                            <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
+                            <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-[#ef6623] transition-colors duration-300 mb-4">
                                 Our Vision
                             </h3>
                             <p className="text-gray-500 font-medium leading-relaxed">
@@ -28,28 +28,27 @@ const SpecialtiesSection = () => {
                         </motion.div>
 
                         <motion.div
-                            initial={{ x: 120, opacity: 0 }}
+                            initial={{ x: -120, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                            transition={{ duration: 0.8, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
+                            className="group bg-[#F8F9FA] 2xl:bg-gray-200 rounded-md p-10 2xl:p-10"
                         >
-                            <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
+                            <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-[#ef6623] transition-colors duration-300 mb-4">
                                 Our Culture
                             </h3>
                             <p className="text-gray-500 font-medium leading-relaxed">
                                 At R-Biomeds, culture is about empowerment and a collaborative atmosphere with shared goals.
                             </p>
                         </motion.div>
-
                         <motion.div
-                            initial={{ x: 120, opacity: 0 }}
+                            initial={{ x: -120, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+                            transition={{ duration: 0.8, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
+                            className="group bg-[#F8F9FA] 2xl:bg-gray-200 rounded-md p-10 2xl:p-10"
                         >
-                            <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
+                            <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-[#ef6623] transition-colors duration-300 mb-4">
                                 Our Mission
                             </h3>
                             <p className="text-gray-500 font-medium leading-relaxed">
@@ -66,7 +65,7 @@ const SpecialtiesSection = () => {
                                 src="/ourvision.png"
                                 alt="Doctor Consultation"
                                 fill
-                                className="object-cover"
+                                className="md:object-cover 2xl:object-contain object-center transition-transform duration-700 hover:scale-105"
                                 priority
                             />
                         </div>
@@ -80,11 +79,12 @@ const SpecialtiesSection = () => {
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.8, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
+                            className="group bg-[#F8F9FA] 2xl:bg-gray-200 rounded-md p-10 2xl:p-10"
                         >
-                            <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
+                            <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-[#ef6623] transition-colors duration-300 mb-4">
                                 Execution Excellence
                             </h3>
+
                             <p className="text-gray-500 font-medium leading-relaxed">
                                 Our teams deliver accountable results with the right capability and attitude.
                             </p>
@@ -93,11 +93,11 @@ const SpecialtiesSection = () => {
                         <motion.div
                             initial={{ x: -120, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                            transition={{ duration: 0.8, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
+                            className="group bg-[#F8F9FA] 2xl:bg-gray-200 rounded-md p-10 2xl:p-10"
                         >
-                            <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
+                            <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-[#ef6623] transition-colors duration-300 mb-4">
                                 Our Values
                             </h3>
                             <p className="text-gray-500 font-medium leading-relaxed">
@@ -108,11 +108,11 @@ const SpecialtiesSection = () => {
                         <motion.div
                             initial={{ x: -120, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+                            transition={{ duration: 0.8, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="bg-[#F8F9FA] rounded-md p-10 2xl:p-10"
+                            className="group bg-[#F8F9FA] 2xl:bg-gray-200 rounded-md p-10 2xl:p-10"
                         >
-                            <h3 className="text-2xl lg:text-3xl font-bold text-black hover:text-[#ef6623] mb-4">
+                            <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-[#ef6623] transition-colors duration-300 mb-4">
                                 Employee Value Proposition
                             </h3>
                             <p className="text-gray-500 font-medium leading-relaxed">

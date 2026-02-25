@@ -45,7 +45,7 @@ const ServicesList = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     return (
-        <section className="py-6 2xl:py-10 bg-white">
+        <section className="py-6 2xl:py-2 bg-white">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col gap-4 md:gap-6">
                     {services.map((service, index) => {

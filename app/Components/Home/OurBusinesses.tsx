@@ -54,7 +54,7 @@ const OurBusinesses = () => {
                             className="group block h-full"
                         >
                             <div
-                                className="relative h-full rounded-[2.5rem] p-4 border border-black/5 transition-all duration-500"
+                                className="relative h-full rounded-[2.5rem] p-4 border-1 border-black/10 transition-all duration-500"
 
                             >
 
