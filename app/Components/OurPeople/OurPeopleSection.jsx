@@ -22,8 +22,8 @@ export default function OurPeopleSection() {
             >
                 {/* TOP LEFT — TEXT */}
                 <div className="bg-gradient-to-r from-red-900 to-[#ef662a] text-white rounded-[2rem]">
-                    <div className="p-6 md:p-6 2xl:p-20 rounded-[2rem] mt-18">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
+                    <div className="p-8 md:p-6 2xl:p-20 rounded-[2rem] md:mt-18">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4 md:text-start text-center">
                             Our People
                         </h1>
 

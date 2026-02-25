@@ -59,13 +59,13 @@ const ServicesList = () => {
                                     px-5 md:px-6
                                     flex flex-col md:flex-row
                                     items-start md:items-center
-                                    gap-4 md:gap-12
+                                    gap-2 md:gap-12
                                     transition-all duration-500
                                     overflow-hidden
                                     ${isActive ? 'bg-[#ef662e]' : 'hover:bg-[#ef662e]'}
 
                                     /* MOBILE */
-                                    h-auto
+                                    h-auto p-4
 
                                     /* DESKTOP */
                                     ${isActive ? 'md:h-72' : 'md:h-32 md:hover:h-72'}

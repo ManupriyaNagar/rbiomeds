@@ -4,7 +4,7 @@ export default function Services() {
     return (
         <main className="min-h-screen bg-white">
             {/* Header Section */}
-            <div className="pt-32 pb-16 bg-white text-center">
+            <div className="pt-32 md:pb-16 bg-white text-center">
                 <div className="container mx-auto px-4">
                     <h1 className="text-4xl md:text-7xl font-bold text-gray-900 mb-6">
                         Our Services

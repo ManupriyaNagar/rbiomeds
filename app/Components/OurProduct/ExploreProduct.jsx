@@ -70,7 +70,7 @@ export default function ExploreProducts() {
                     <h2 className="text-3xl md:text-[3.5rem] font-bold text-gray-500 hover:text-[#ef662a] leading-tight mb-4">
                         Quality Healthcare Products For Every Need
                     </h2>
-                    <p className="max-w-7xl mx-auto text-gray-500 text-base md:text-lg leading-relaxed">
+                    <p className="md:max-w-7xl max-w-sm mx-auto text-gray-500 text-sm md:text-lg leading-relaxed md:text-center text-justify">
                         At R-Biomeds, we are dedicated to developing, manufacturing, sourcing and delivering only the highest quality pharmaceutical products along with renowned partners across the globe.
                         We understand that in healthcare, excellence is non-negotiable. That's why we have established partnerships with industry leaders who share our commitment to uncompromising quality and patient well-being.
                     </p>
