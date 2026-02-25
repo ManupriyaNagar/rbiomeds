@@ -65,7 +65,7 @@ const SpecialtiesSection = () => {
                                 src="/ourvision.png"
                                 alt="Doctor Consultation"
                                 fill
-                                className="md:object-cover 2xl:object-contain object-center transition-transform duration-700 hover:scale-105"
+                                className="md:object-cover 2xl:object-contain object-center transition-transform duration-700"
                                 priority
                             />
                         </div>

@@ -118,7 +118,7 @@ const ArticlesContent = () => {
                         Our Journal
                     </h1>
                     <p className="text-xl text-gray-600 max-w-2xl font-medium">
-                        Insights, breakthroughs, and wellness guides from the world of Rbiomeds.
+                        Insights, breakthroughs, and wellness guides from the world of R-Biomeds.
                     </p>
                 </div>
 

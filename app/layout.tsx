@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rbiomeds",
-  description: "Rbiomeds is a leading provider of high-quality medical products and services. We are committed to providing our customers with the best possible products and services.",
+  title: "R-Biomeds",
+  description: "R-Biomeds is a leading provider of high-quality medical products and services. We are committed to providing our customers with the best possible products and services.",
   icons: {
     icon: "/Rbiomedsfavicon.svg",
   },
