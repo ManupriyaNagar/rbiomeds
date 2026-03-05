@@ -6,6 +6,12 @@ import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import ProductCard from "../../Components/OurProduct/ProductCard";
 
+export async function generateStaticParams() {
+    return Object.keys(productsData).map((category) => ({
+        category: category,
+    }));
+}
+
 export default async function CategoryPage({ params }) {
     const { category: categorySlug } = await params;
     const products = productsData[categorySlug] || [];
