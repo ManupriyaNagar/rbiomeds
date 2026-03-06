@@ -12,7 +12,7 @@ const OurBusinesses = () => {
 
             textColor: "text-slate-800",
             accent: "text-cyan-700",
-            link: "https://abcinternationalh.netlify.app/",
+            link: "https://abcinternational.global/",
             type: "maxxcare",
             visualImage: "/p1.png",
         },
@@ -24,7 +24,7 @@ const OurBusinesses = () => {
             bgColor: "#9444A1",
             textColor: "text-green-900",
             accent: "text-green-700",
-            link: "https://rbvetshi.netlify.app/",
+            // link: "#",
             type: "natural",
             visualImage: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800",
         },
