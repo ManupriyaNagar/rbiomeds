@@ -1,7 +1,7 @@
-import OurPeopleSection from "../Components/OurPeople/OurPeopleSection";
-import LeadershipBoard from "../Components/OurPeople/LeadershipBoard";
-import PeopleHighlight from "../Components/OurPeople/PeopleHighlight";
-import { leadershipTeam, boardMembers, financeTeam } from "../Components/data/leader";
+import OurPeopleSection from "../../Components/OurPeople/OurPeopleSection";
+import LeadershipBoard from "../../Components/OurPeople/LeadershipBoard";
+import PeopleHighlight from "../../Components/OurPeople/PeopleHighlight";
+import { leadershipTeam, boardMembers, financeTeam } from "../../Components/data/leader";
 
 export default function OurPeoplePage() {
     return (

@@ -316,8 +316,8 @@
             "id": "immuplex",
             "title": "Carbomark ",
             "description": "Carboplatin Inj BP 150/450 mg",
-            "image": "/oncology/carbomarkPack.png",
-            "image2": "/oncology/carbomark.png"
+            "image": "/oncology/CarbomarkPack.png",
+            "image2": "/oncology/Carbomark.png"
         },
         {
             "id": "glucomeal-vanilla",
@@ -555,15 +555,15 @@
             "id": "glucomeal-vanilla",
             "title": "Moist Boost",
             "description": "Intensive Moisturizing Cream",
-            "image": "/Dermatology/MoistBoostPack.png",
-            "image2": "/Dermatology/MoistBoost.png"
+            "image": "/Dermatology/MoistboostPack.png",
+            "image2": "/Dermatology/Moistboost.png"
         },
         {
             "id": "glucomeal-vanilla",
             "title": "Sun Lite",
             "description": "Moisturizing UV Protect Sunscream",
-            "image": "/Dermatology/SunLitePack.png",
-            "image2": "/Dermatology/SunLite.png"
+            "image": "/Dermatology/SunlitePack.png",
+            "image2": "/Dermatology/Sunlite.png"
         }
     ],
     "endocrinology-prescription": [
@@ -749,15 +749,15 @@
             "id": "immuplex",
             "title": "F 5",
             "description": "Finasteride BP 5 mg Tablets",
-            "image": "/urology/F5Pack.png",
-            "image2": "/urology/F5.png"
+            "image": "/Urology/F5Pack.png",
+            "image2": "/Urology/F5.png"
         },
         {
             "id": "rekover",
             "title": "Flosure (2x10's) Capsule",
             "description": "Tamsulosin Hydrocholride",
-            "image": "/urology/FlosurePack.png",
-            "image2": "/urology/Flosure.png"
+            "image": "/Urology/FlosurePack.png",
+            "image2": "/Urology/Flosure.png"
         }
     ],
     "oral-care-prescription": [
@@ -765,8 +765,8 @@
             "id": "rekover",
             "title": "Fluritop Mouthwash",
             "description": "Anti-Cavity Fluoride Mouthwash",
-            "image": "/oralCare/FluoritopPack.png",
-            "image2": "/oralCare/Fluoritop.png"
+            "image": "/OralCare/FluoritopPack.png",
+            "image2": "/OralCare/Fluoritop.png"
         }
     ],
     "biosimilar-prescription": [
@@ -792,15 +792,15 @@
             "id": "immuplex",
             "title": "A2Z Drop 30 ml",
             "description": "Multivitamin , Antioxidant & Minerals Drops",
-            "image": "/kidsCare/A2ZDropPack.png",
-            "image2": "/kidsCare/A2ZDrop.png"
+            "image": "/KidsCare/A2ZDropPack.png",
+            "image2": "/KidsCare/A2ZDrop.png"
         },
         {
             "id": "immuplex",
             "title": "A2Z Syrup 200 ml",
             "description": "Multivitamin , Antioxidant & Minerals Syrup",
-            "image": "/kidsCare/A2ZSyrupPack.png",
-            "image2": "/kidsCare/A2ZSyrup.png"
+            "image": "/KidsCare/A2ZSyrupPack.png",
+            "image2": "/KidsCare/A2ZSyrup.png"
         }
     ],
     "general-wellbeing-wellness": [
@@ -833,8 +833,8 @@
             "id": "immuplex",
             "title": "DiaVit",
             "description": "Multivitamin & Multimineral Soft Gelatin Capsules",
-            "image": "/DiabeticCare/DiaVitPack.png",
-            "image2": "/DiabeticCare/DiaVit.png"
+            "image": "/DiabeticCare/DiavitPack.png",
+            "image2": "/DiabeticCare/Diavit.png"
         }
     ],
     "eye-care-wellness": [
@@ -869,57 +869,57 @@
             "id": "immuplex",
             "title": "Bioskin",
             "description": "Hand Sanitizer Gel 125 ml",
-            "image": "/GeneralWellBeingHealth/BioskinPack.png",
-            "image2": "/GeneralWellBeingHealth/Bioskin.png"
+            "image": "/GeneralWellbeingHealth/BioskinPack.png",
+            "image2": "/GeneralWellbeingHealth/Bioskin.png"
         },
         {
             "id": "rekover",
             "title": "Cal D3 Tab",
             "description": "Calcium, Zinc , Magnesium Vitamin D3 & Vitamin K2 Tablets",
-            "image": "/GeneralWellBeingHealth/CalD3CapPack.png",
-            "image2": "/GeneralWellBeingHealth/CalD3Cap.png"
+            "image": "/GeneralWellbeingHealth/CalD3CapPack.png",
+            "image2": "/GeneralWellbeingHealth/CalD3Cap.png"
         },
         {
             "id": "immuplex",
             "title": "Clinsodent Brush",
             "description": "Strontium Chloride Hexahydrate Toothpaste",
-            "image": "/GeneralWellBeingHealth/ClinsodentBrushPack.png",
-            "image2": "/GeneralWellBeingHealth/ClinsodentBrush.png"
+            "image": "/GeneralWellbeingHealth/ClinsodentBrushPack.png",
+            "image2": "/GeneralWellbeingHealth/ClinsodentBrush.png"
         },
         {
             "id": "immuplex",
             "title": "Dermavit Tab",
             "description": "Glowing Skin | Healthy Hair | Strong Nail",
-            "image": "/GeneralWellBeingHealth/DermavitPack.png",
-            "image2": "/GeneralWellBeingHealth/Dermavit.png"
+            "image": "/GeneralWellbeingHealth/DermavitPack.png",
+            "image2": "/GeneralWellbeingHealth/Dermavit.png"
         },
         {
             "id": "immuplex",
             "title": "Hexidine  Mouthwash 80/160 ml",
             "description": "Chlorhexidene Gluconate Mouthwash",
-            "image": "/GeneralWellBeingHealth/HexidineMWPack.png",
-            "image2": "/GeneralWellBeingHealth/HexidineMW.png"
+            "image": "/GeneralWellbeingHealth/HexidineMWPack.png",
+            "image2": "/GeneralWellbeingHealth/HexidineMW.png"
         },
         {
             "id": "immuplex",
             "title": "Hi-Cal Tab",
             "description": "Calcium Supplement",
-            "image": "/GeneralWellBeingHealth/HiCalTabPack.png",
-            "image2": "/GeneralWellBeingHealth/HiCalTab.png"
+            "image": "/GeneralWellbeingHealth/HiCalTabPack.png",
+            "image2": "/GeneralWellbeingHealth/HiCalTab.png"
         },
         {
             "id": "immuplex",
             "title": "ORO FRESH",
             "description": "Herbal Toothpaste",
-            "image": "/GeneralWellBeingHealth/OrofreshHerbalPackFinal.png",
-            "image2": "/GeneralWellBeingHealth/OrofreshHerbal.png"
+            "image": "/GeneralWellbeingHealth/OrofreshHerbalPackFinal.png",
+            "image2": "/GeneralWellbeingHealth/OrofreshHerbal.png"
         },
         {
             "id": "immuplex",
             "title": "Orofresh ",
             "description": "Herbal Toothpaste 20/50/100 gm",
-            "image": "/GeneralWellBeingHealth/OrofreshHerbalToothpastePack.png",
-            "image2": "/GeneralWellBeingHealth/OrofreshHerbalToothpaste.png"
+            "image": "/GeneralWellbeingHealth/OrofreshHerbalToothpastePack.png",
+            "image2": "/GeneralWellbeingHealth/OrofreshHerbalToothpaste.png"
         },
         {
             "id": "immuplex",
@@ -932,8 +932,8 @@
             "id": "immuplex",
             "title": "Orofresh Mouthwash",
             "description": "Mouthwash 100/200 ml",
-            "image": "/GeneralWellbeingHealth/OrofreshMouthFreshenerPack.png",
-            "image2": "/GeneralWellbeingHealth/OrofreshMouthFreshener.png"
+            "image": "/GeneralWellbeingHealth/OrofreshMouthfreshenerPack.png",
+            "image2": "/GeneralWellbeingHealth/OrofreshMouthfreshener.png"
         },
         {
             "id": "immuplex",
@@ -981,8 +981,8 @@
             "id": "immuplex",
             "title": "Thermoseal Proxa NS",
             "description": "Interdental Brush",
-            "image": "/GeneralWellbeingHealth/ThermosealProxaNSPack.png",
-            "image2": "/GeneralWellbeingHealth/ThermosealProxaNS.png"
+            "image": "/GeneralWellbeingHealth/ThermosealProxaNsPack.png",
+            "image2": "/GeneralWellbeingHealth/ThermosealProxaNs.png"
         },
         {
             "id": "immuplex",
@@ -1002,15 +1002,15 @@
             "id": "immuplex",
             "title": "Thermoseal",
             "description": "ToothBrush",
-            "image": "/GeneralWellbeingHealth/ThermosealToothBrushPack.png",
-            "image2": "/GeneralWellbeingHealth/ThermosealToothBrush.png"
+            "image": "/GeneralWellbeingHealth/ThermosealToothbrushPack.png",
+            "image2": "/GeneralWellbeingHealth/ThermosealToothbrush.png"
         },
         {
             "id": "immuplex",
             "title": "Thermoseal",
             "description": "Ultrasoft Brush",
-            "image": "/GeneralWellbeingHealth/ThermosealUltrasoftBrushPack.png",
-            "image2": "/GeneralWellbeingHealth/ThermosealUltrasoftBrush.png"
+            "image": "/GeneralWellbeingHealth/ThermosealUltraSoftBrushPack.png",
+            "image2": "/GeneralWellbeingHealth/ThermosealUltraSoftBrush.png"
         },
         {
             "id": "immuplex",
@@ -1065,10 +1065,10 @@
         },
         {
             "id": "immuplex",
-            "title": "Kids Bunny Gel 15 gm",
+            "title": "Kids Bunny Gel 13 gm",
             "description": "Dental Gel for Kids",
-            "image": "/ChildHealth/KidsBunnyy.png",
-            "image2": "/ChildHealth/KidsBunnyy.png"
+            "image": "/ChildHealth/kidsbunnyy.png",
+            "image2": "/ChildHealth/kidsbunnyy.png"
         },
         {
             "id": "immuplex",
@@ -1094,6 +1094,7 @@
             "image2": "/WomenHealth/GLA.png"
         }
     ],
+    "medical-devices": [],
     "nutrition-vetcare": [
         {
             "id": "immuplex",
@@ -1143,8 +1144,8 @@
             "id": "immuplex",
             "title": "Daily Nutrition Tuna Salmon for Cat",
             "description": "Daily Nutrition Tuna Salmon for Cat 400 gm",
-            "image": "/VetFood/DroolsTunaNSalmonforCatPack.png",
-            "image2": "/VetFood/DroolsTunaNSalmonforCat.png"
+            "image": "/VetFood/DroolsTunaNSalmonforcatPack.png",
+            "image2": "/VetFood/DroolsTunaNSalmonforcat.png"
         }
     ]
 }

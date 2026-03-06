@@ -1,10 +1,10 @@
 
-import Sidebar from "../../Components/OurProduct/Sidebar";
+import Sidebar from "../../../Components/OurProduct/Sidebar";
 
-import productsData from "../../Components/data/products_detail.json";
+import productsData from "../../../Components/data/products_detail.json";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
-import ProductCard from "../../Components/OurProduct/ProductCard";
+import ProductCard from "../../../Components/OurProduct/ProductCard";
 
 export async function generateStaticParams() {
     return Object.keys(productsData).map((category) => ({
